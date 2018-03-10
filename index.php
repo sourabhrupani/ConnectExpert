@@ -289,7 +289,7 @@
                       <div class="section">
                         <div class="heroHeadingSection">
                           <h1 class="headline">Connect to Experts</h1>
-                          <h6 class="subheadline">Where your problems meet 24/7 expert support.</h6>
+                          <h6 class="subheadline">Where your problems meet 24*7 expert support.</h6>
                           <p>Say goodbye to roadblocks and hello to productivity.
                         </p>
                         <div class="loginSignup"></div></div>
@@ -530,21 +530,14 @@
                     </div>
                     <div class="body">
                       <ul class="list">
-                        <li class="category first"><a href="index53b4.html?interestCategoryId=1#viewFeed" class="name" onclick="jqSetHtml('#interestCategoryNavigation .displayTitle','Recent activity in \u003cstrong\u003eSoftware Engineering\u003c/strong\u003e');" data-interestcategoryid="1"><span>Software Engineer</span></a></li>
-                        <li class="category"><a href="index7444.html?interestCategoryId=2#viewFeed" class="name" onclick="jqSetHtml('#interestCategoryNavigation .displayTitle','Recent activity in \u003cstrong\u003eIT Management\u003c/strong\u003e');" data-interestcategoryid="2"><span>IT Manager</span></a></li>
-                        <li class="category"><a href="index73e7.html?interestCategoryId=3#viewFeed" class="name" onclick="jqSetHtml('#interestCategoryNavigation .displayTitle','Recent activity in \u003cstrong\u003eProject Management\u003c/strong\u003e');" data-interestcategoryid="3"><span>Project Manager</span></a></li>
-                        <li class="category"><a href="index0010.html?interestCategoryId=4#viewFeed" class="name" onclick="jqSetHtml('#interestCategoryNavigation .displayTitle','Recent activity in \u003cstrong\u003eSecurity\u003c/strong\u003e');" data-interestcategoryid="4"><span>Security Specialist</span></a></li>
-                        <li class="category"><a href="index8991.html?interestCategoryId=5#viewFeed" class="name" onclick="jqSetHtml('#interestCategoryNavigation .displayTitle','Recent activity for \u003cstrong\u003eBusiness Professionals\u003c/strong\u003e');" data-interestcategoryid="5"><span>Business Professional</span></a></li>
-                        <li class="category"><a href="index155c.html?interestCategoryId=6#viewFeed" class="name" onclick="jqSetHtml('#interestCategoryNavigation .displayTitle','Recent activity in \u003cstrong\u003eDevOps\u003c/strong\u003e');" data-interestcategoryid="6"><span>DevOps</span></a></li>
-                        <li class="category"><a href="index50f2.html?interestCategoryId=7#viewFeed" class="name" onclick="jqSetHtml('#interestCategoryNavigation .displayTitle','Recent activity in \u003cstrong\u003eWeb Development\u003c/strong\u003e');" data-interestcategoryid="7"><span>Web Developer</span></a></li>
-                        <li class="category"><a href="index9f21.html?interestCategoryId=8#viewFeed" class="name" onclick="jqSetHtml('#interestCategoryNavigation .displayTitle','Recent activity in \u003cstrong\u003eNetwork Administration\u003c/strong\u003e');" data-interestcategoryid="8"><span>Network Administrator</span></a></li>
-                        <li class="category"><a href="index1ad9.html?interestCategoryId=9#viewFeed" class="name" onclick="jqSetHtml('#interestCategoryNavigation .displayTitle','Recent activity in \u003cstrong\u003eSales & Marketing\u003c/strong\u003e');" data-interestcategoryid="9"><span>Sales &amp;&nbsp;Marketing</span></a></li>
-                        <li class="category last"><a href="index1c1a.html?interestCategoryId=10#viewFeed" class="name" onclick="jqSetHtml('#interestCategoryNavigation .displayTitle','Recent activity in \u003cstrong\u003eDatabase Administration\u003c/strong\u003e');" data-interestcategoryid="10"><span>Database Administrator</span></a></li>
+                        <li class="category first"><a href="aeronautical.php" class="name"><span>Aeronautical Department</span></a></li>
+                        <li class="category"><a href="civil.php" class="name"><span>Civil Department</span></a></li>
+                        <li class="category"><a href="computerDepart.php" class="name"><span>Computer Department</span></a></li>
+                        <li class="category"><a href="electrical.php" class="name"><span>Electrical Department</span></a></li>
+                        <li class="category"><a href="mechanical.php" class="name"><span>Mechanical Department</span></a></li>
+                        <li class="category"><a href="mechatronics.php" class="name"><span><a href="mechatronics.php">Mechatronics Department</a></span></a></li> 
                       </ul>
-                      <script type="text/javascript">
-                        jqOn('#interestCategoryNavigation','click','.category a',function(e){(e).preventDefault();jqRemoveClass('#interestCategoryNavigation .category','selected');jqAddClass(jqGetParent(this),'selected');jqAsyncLoad('#loFeedListContainer .body:first','/async/categoryFeed.async',[{name:'asid',value:'interestCategoryNavigation'},{name:'iasid',value:'interestCategoryNavigation'},{name:'componentHtmlId',value:'feedList'},{name:'interestCategoryId',value:jqGetAttribute(this,'data-interestcategoryid')}]);jqScrollTop('.component.feedList',0);});
-                      </script>
-                      <h6 class="displayTitle"></h6>
+                    <h6 class="displayTitle"></h6>
                     </div>
                   </div>
                 </div>
