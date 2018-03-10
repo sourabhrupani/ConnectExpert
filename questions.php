@@ -373,19 +373,16 @@
 					</div>
 					<div class="qa-sidebar wet-asphalt">
 						<div style="font-size:13px;">
-Welcome to the Q&amp;A site for <A HREF="index.php">Question2Answer</A>.
-<BR><BR>
-If you have a question about Q2A, please <A HREF="ask.php">ask in English</A>.
-<BR><BR>
-To report a bug, please create a <A HREF="https://github.com/q2a/question2answer/issues">new issue on Github</A> or ask a question here with the <a href="tag/bug.html" class="qa-tag-link" style="margin:0 2px;">bug</a> tag.
-<BR><BR>
-<!-- If you just want to try Q2A, please use the <A HREF="http://demo.question2answer.org/">demo site</A>. -->
-<!--<BR><BR>
-<B><A HREF="http://www.question2answer.org/qa/31514/what-do-you-want-in-question2answer-1-7">Q: What do you want in Question2Answer 1.7?</A></B>-->
-<BR><BR>
-<B STYLE="color:red;">Feb 8, 2018:</B> <A HREF="http://www.question2answer.org/versions.php">Q2A 1.8.0 released!</A>
-</div>
-					</div>
+							Welcome to the WhizzKid!
+							<BR><BR>
+							Got a question? Ask it 
+							<A HREF="ask.html">Here</A>.
+							<BR><BR>
+							Become an Expert!
+							<a href="tag/bug.html"  style="margin:0 1px;"></a>
+							<BR><BR>
+						</div>	
+				    </div>
 					
 					<div class="qa-nav-cat">
 						<ul class="qa-nav-cat-list qa-nav-cat-list-1">

@@ -12,7 +12,6 @@
 		<style>
 			.fb-login-button.fb_iframe_widget.fb_hide_iframes span {display:none;}
 		</style>
-		<!-- <link rel="search" type="application/opensearchdescription+xml" title="Question2Answer Q&amp;A" href="opensearch.xml"> -->
 		<STYLE TYPE="text/css">
 			.qa-logo-link img {padding-top:8px;}
 			.qa-nav-main-custom-6 {width:2em; background:url('../../developer.android.com/images/brand/Android_Robot_100.png') no-repeat center center; background-size:50% 50%;}

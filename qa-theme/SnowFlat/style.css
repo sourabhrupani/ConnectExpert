@@ -1,3 +1,7 @@
-.depart-table tr td{
-	width: 200px;
+.depart-table tr td a{
+	width: 100%;
+}
+
+.navBar-color{
+	background-color: #ffffff;
 }
