@@ -204,7 +204,7 @@
 										<textarea name="content" rows="12" cols="40" class="qa-form-tall-text"></textarea>
 									</td>
 								</tr>
-								<tr>
+<!-- 								<tr>
 									<td class="qa-form-tall-label">
 										Optional: What version of Q2A are you running?
 									</td>
@@ -213,7 +213,7 @@
 									<td class="qa-form-tall-data">
 										<input name="extra" type="text" value="" class="qa-form-tall-text">
 									</td>
-								</tr>
+								</tr> -->
 								<tr>
 									<td class="qa-form-tall-label">
 										Tags - use hyphens to combine words:

@@ -45,9 +45,7 @@
 		<script src="../qa-content/qa-user8782.js?1.7.4"></script>
 		<script src="../qa-theme/SnowFlat/js/snow-core8782.js?1.7.4"></script>
 	</head>
-	<body
-		class="qa-template-user qa-body-js-off"
-		>
+	<body class="qa-template-user qa-body-js-off">
 		<script>
 			var b=document.getElementsByTagName('body')[0];
 			b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
@@ -86,9 +84,7 @@
 				</div>
 				<div class="qa-nav-main">
 					<ul class="qa-nav-main-list">
-						<!-- <li class="qa-nav-main-item qa-nav-main-activity">
-							<a href="../activity.html" class="qa-nav-main-link">All Activity</a>
-						</li> -->
+						
 						<li class="qa-nav-main-item qa-nav-main-questions">
 							<a href="../questions.html" class="qa-nav-main-link">Questions</a>
 						</li>
@@ -118,7 +114,7 @@
 			<div class="qa-nav-sub">
 				<ul class="qa-nav-sub-list">
 					<li class="qa-nav-sub-item qa-nav-sub-profile">
-						<a href="Zeeshan.html" class="qa-nav-sub-link qa-nav-sub-selected">User Zeeshan</a>
+						<a href="Zeeshan.html" class="qa-nav-sub-link qa-nav-sub-selected">Zeeshan</a>
 					</li>
 					<li class="qa-nav-sub-item qa-nav-sub-wall">
 						<a href="Zeeshan/wall.html" class="qa-nav-sub-link">Wall</a>
@@ -155,7 +151,7 @@
 					<h1>
 						
 						
-						User Zeeshan
+						Hello Zeeshan
 						
 					</h1>
 					<div class="qa-part-form-profile">
@@ -164,7 +160,7 @@
 								<tbody id="avatar">
 									<tr>
 										<td class="qa-form-tall-data" colspan="3">
-											<div class="qa-form-tall-image"><a href="Zeeshan.html" class="qa-avatar-link"><img src="http://www.question2answer.org/qa/?qa=image&amp;qa_blobid=4864947876855164280&amp;qa_size=250" width="250" height="250" class="qa-avatar-image" alt=""></a></div>
+											<div class="qa-form-tall-image"><img src="http://www.question2answer.org/qa/?qa=image&amp;qa_blobid=4864947876855164280&amp;qa_size=250" width="250" height="250" class="qa-avatar-image" alt=""></div>
 										</td>
 									</tr>
 								</tbody>
