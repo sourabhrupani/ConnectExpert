@@ -16,7 +16,7 @@
 		var qa_tags_examples = '';
 		var qa_tags_complete = 'plugin,error,theme,bug,user,login,users,database,question,q2a,questions,plugins,facebook,wordpress,tags,admin,category,email,url,seo,categories,editor,php,wysiwyg-editor,search,ckeditor,custom,page,email-notifications,css,answer,feature-request,development,core,points,integration,google,widget,spam,html,language,avatar,themes,installation,profile,mysql,answers,htaccess,sidebar,image,question2answer,hide,tag,permissions,advanced-theme,button,customization,homepage,wysiwyg,snowflat,q2apro-plugins,edit,adsense,username,link,redirect,registration,moderation,badges,ask,title,upload,custom-page,list,upgrade,single-sign-on,user-profile,comments,post,facebook-plugin,javascript,update,voting,images,features,free-plugin,best-answer,rss,url-structure,mobile,navigation,sitemap,meta,security,remove,code,notification,markdown,q2a-open-login,links,responsive,delete,ajax,version,help,feature-suggestion,change,install,database-error,layout,markdown-editor,sso,emails,header,content,vote,translation,form,notifications,feed,pages,comment,view-count,count,q2a-market,ads,ip,register,question-list,function,problem,q&amp;a,activity,next-version,favorites,notice,recaptcha,twitter,anonymous,private-message,user-points,menu,template,duplicate,external,blog,message,server,free,snow-theme,performance,embed,stop-spam,qa-core,image-upload,user-registration,description,forum,views,on-site-notifications,404-error,android,script,snow,bugs,votes,add,text,free-themes,wall,cache,module,history,filter,website,feature,import,fields,urls,sort,warning,translate,chat-room,premium,related-questions,chat,footer,color,field,options,1,donut-theme,version-15,version-14,events,subcategories,disable,add-content,unanswered,limit,feedback,q2a-core,registered-user,search-engine,multisite,jquery,customisation,close,poll,app,administrators,index,design,facebook-login,wiki,smtp,order,style,posts,override,new,not,bootstrap,ldap,font,domain,table,block,password,functions,site,directory,custom-field,external-users,faq,https,logo,view,modify,cleanstrap,email-confirmation,nginx,subdomain,hack,buttons,query,time,box,nofollow,issue,selected,posting,beta,best-user-per-month,mathjax,attachments,sidepanel,xml,forgot-password,share,suggestion,closed-questions,socialsharing,noahy,ask-box,search-box,blob,301redirect,social,event,size,private,frontpage,youtube,captcha,favorite,display,closed,name,version-18,1-5-beta,pagination,icon,google-search,updates,clean-urls,moderator,sql,experts,fatal,rewrite,hidden,joomla,option,version-16,rss-feeds,newsletter,rtl,bulk-import,answer-box,backup,date,titles,widgets,slow,characters,validation,flags,cookie,free-theme,sceditor,open-login,tag-cloud,askbox,permalinks,multilanguage,badge,flag,user-image-avatar,need-help,developer,indexing,network,advertisement,related,snow-flat,widget-anywhere,ckeditor4,qa_users-integration-plugins-wordpress,admin-panel,facebook-like,event-log,recent-activity,questionform,preview,cookies,permission,migration,video,vote-answer,release,output,class,integrate,file,privileges,social_login,facebbok,qa-config,logged-in,online,uploads,gravatar,404,account,convert,usability,documentation,mailing,idea,request,download,point,show,sites,on,syntax-highlighter,questionlist,top-bar,fb-button,embedding-video,automatically-tags,authentication,advanced-installation,favicon,chrome,improvement,avatars,unexpected,icons,userpoints,width,sorting,userid,load,expert,mail,editing,log,apache,sessions,default,community,words,files,stackoverflow,blog-tool,please-click-again-to-confirm,sql-query,qa-lang,private-messaging,lists,signature,members,optimization,automatic,format,config,approve,api,tab,background,report,featured,polls,reputation,layer,number,js,extra,control,get,access,guest,by,data,suggestions,blog-post,edit-history,sitemap-error,wordpress-installation,google-analytics,microformats,length,export,administration,add-on,merge,akismet,character,openid,localhost,recent,home,undefined,roadmap,invite,include,multiple,tables,select,customize,to,walls,unexpected-error,question-title,thumbnail,-,answer-count,caching,robots,resize,webmastertools,searchform,profiles,keywords,hot,speed,folder,unicode,templates,stats,forms,found,type,move,single,check,create,amp,extra-question-field,qawork,new-plugin,anti-spam,xml-rpc,star-ratings,qa-nav-sub,extra-field,vote-buttons,seo-plugin,syntax-highliter,super-admin,buddypress,how-to,ux,full-list-of-questioon,blobs,hidden-posts,fb-plug-in,submenu,migrate,transliteration,textarea,quiz,pdf,tutorial,position,approval,font-size,bulk,auto,canonical,level,prevent,response,follow,phpmyadmin,sub,reindex,powered,roles,input,iframe,paths,session,qa,public,best,of,main,stackexchange,like,muffin,multiple_sites,version-17,ask-page,commentbox,google-plus,question-closing,questions-display,question-page,confirmation-email,profile-page,signatures-plugin,qa-theme,line-break,register-form,subnavigation,dude,ssl,hot-questions,banned-words,uppercase,moderate,utf8,popup,hover,visitors,tips,bar,vote-down,privacy,handle,logout,variable,german,demo,submit,user-roles,groups,short,8,github,empty,id,basic,traffic,headers,fix,db,sign,host,compatibility,markup,licensing,how,support,panel,system,custom-plugin,email-notification,non-free,activity-widget,fatal-error,q2a-design,extra-fields,not-working,capitilize-first-letters,meta-tags,tv-q2amarket,transfering-website,event-logger,user-lists,user-input,sub-categories,new-theme,administrator_login,answer-form,side-panel,theme-switcher,ios,antibot,navigation-links,page-not-found,friendly-url,language-options,version-13,share-button,htmlawed,turkish,sanitize,8000,flagging,multilingual,tip,iis,latex,subscription,mentions,popular-tags,authors,country,dynamic,blocked,paid,windows,png,rank,dropdown,session-start,pro,localization,opensource,special-character,news,qa-base,remove-questions,scroll,banning,ban,print,follows,space,role,group,column,7,ie,postid,latest,switch,test,settings,statistics,top,selection,checkbox,clean,internationalization,5,interface,utf-8,3,example,advanced,contact,insert,vbulletin,phpbb,most,www,in,simple-ads-manager,q2a-badges,qa-book,insert-into-db,q2apro,delete-hidden-posts,insert-mathematical-formulas,pagespeed,hashtags,sign-in,advert-plugin,remove-accents,page-title,populating-new-site,delete-question,similar-questions,qa-include,block-user,censored-words,comment-voting,user-group,activiy-stream,comment-notification,top-user,nav-main,favorite-question,linkedin,zlib,homepage-title,dashboard,internet-explorer,hotness,bookmarks,hacks,server-error,multiqa,oauth,admin-notification,exclude,cdn,qa_blobs,statistic,mediawiki,iis7,signup,hacked,disappear,addon,banner,developers,slug,wp,flat,fb,audio,upvoting,slash,confirmation,iphone,paypal,osqa,crawl,thumb,inactive,repository,blank,gmail,location,href,sharing,css-error,string,silent,analytics,bot,active,picture,ideas,structure,send,rules,prefix,find,i18n,refresh,save,4,6,spanish,subdirectory,mass,only,software,open,setup,web,errors,asked,and,for,about,seo-urls,sub-menu,1-7-2,tag-search,flatbox,donut,intgerate,mobile-theme,q2a-seo-links,email-confirmed,custom-pages,undefined-index,user_not_found,hide-sidebar,last-activity,q2a-wp-pack,searchbar,efficiency,promote-site,new-member,users-management,special-user,topbar,opensearch,qa-app-format,plugin-page,fraud,relative-links,syntax-highlight,max-user-connections,accept-answer,google-api,gzhandler,question-id,my-updates,qa_postmetas,oracle,database-query-error-1146,email-signup,root-link,plug-in,breadcrumb,initialize,total-count,widget-locations,new_versions_qa,bots,q2a14,question-and-answer-same-page,json,proxy-sso-plugin,godaddy,navbar,question-link,active-directory,git,selectspec,overwrite,lightbox,infinite,readability,alphabetical,requirements,canonicalization,lang,identify,detect,bump,pm,html5,java,blogs,beta12,shoutbox,keyword,conditions,subdomains,contest,qa-a-count,score,loading,blogger,copyright,random,credit,maintenance,photo,v1,counter,debug,modification,label,element,terms,memory,newest,installer,replace,rename,verification,hook,encoding,spammers,reply,firefox,general,status,direction,broken,parameters,gidgreen,occurred,manage,answered,ui,store,showing,tabs,edits,editors,simple,gpl,copy,market,management,classic,year,happy,future,license,source,click,my,wrong,a,lion-theme,q2amarket-products,new-url,material-design,full-name,link-new-page,change-url,qa-login,rich-snippets,duplicat,database-archive,dbsave,q2a-login,new-q2a-site,open-graph,custom-notice,adsense-responsive,fontello,internal-server-error,random-tip,add-class,mariadb,ckeditor4-widget,prevent-simultaneous-edits,q2apro-themes,gae,custom-login,lion,ask-a-question,plugin-request,qa-page,oembed,opengraph,max-control,fisrt-time-askers,pixel-n-grain-light,full-list-of-question,tamil,badge-error,views-count,spell-checker,q2a-community,email-template,answer-list,userfields,tidy,payments,ad-banners,favicon-ico,hit-counter,logged-out,ipboard,50000,lenght,booking,stack-exchange,shortcode,postgresql,error-message,rewards,qq,smilies,scott,mention-notifier,askbot,verified,csrf,moodle,bounty,cyrillic,mamp,logger,user-privileges,new_versions,algorithm,agreement,region,layers,timeout,thank-you,user-participation,freelance';
 		var qa_tags_max = 5;
-		var qa_captcha_in = 'qa_captcha_div_1';
+		// var qa_captcha_in = 'qa_captcha_div_1';
 		var qa_wysiwyg_editor_config = {
 			filebrowserImageUploadUrl: '.\/wysiwyg-editor-upload?qa_only_image=1',
 			defaultLanguage: 'en',
@@ -32,42 +32,42 @@
 			var e=document.getElementById('email_hidden');
 			if (e) { var d=(!notify); if (first || (e.nodeName=='SPAN')) { e.style.display=d ? '' : 'none'; } else { if (d) { $(e).fadeIn(); } else { $(e).fadeOut(); } } }
 		}
-		function recaptcha_load(elemId) {
-		  if (grecaptcha) {
-		    grecaptcha.render(elemId, {
-		      "sitekey": '6LdY9gsAAAAAAO3irtawGrfBt7rqPkzFRvRHd_Mz'
-		    });
-		  }
-		}
-		function recaptcha_onload() {
-		  recaptcha_load("qa_captcha_div_1");
-		}
-		var qa_oldonload = window.onload;
-		window.onload = function() {
-			if (typeof qa_oldonload == 'function')
-				qa_oldonload();
+		// function recaptcha_load(elemId) {
+		//   if (grecaptcha) {
+		//     grecaptcha.render(elemId, {
+		//       "sitekey": '6LdY9gsAAAAAAO3irtawGrfBt7rqPkzFRvRHd_Mz'
+		//     });
+		//   }
+		// }
+		// function recaptcha_onload() {
+		//   recaptcha_load("qa_captcha_div_1");
+		// }
+		// var qa_oldonload = window.onload;
+		// window.onload = function() {
+		// 	if (typeof qa_oldonload == 'function')
+		// 		qa_oldonload();
 			
-			if (qa_ckeditor_content = CKEDITOR.replace('content', qa_wysiwyg_editor_config)) { qa_ckeditor_content.setData(document.getElementById('content_ckeditor_data').value); document.getElementById('content_ckeditor_ok').value = 1; }
+		// 	if (qa_ckeditor_content = CKEDITOR.replace('content', qa_wysiwyg_editor_config)) { qa_ckeditor_content.setData(document.getElementById('content_ckeditor_data').value); document.getElementById('content_ckeditor_ok').value = 1; }
 			
-			qa_category_select('category', '');
+		// 	qa_category_select('category', '');
 			
-			jQuery('#notify').click(function() {
-				qa_display_rule_1(false);
-			});
-			qa_display_rule_1(true);
+		// 	jQuery('#notify').click(function() {
+		// 		qa_display_rule_1(false);
+		// 	});
+		// 	qa_display_rule_1(true);
 			
-			qa_reveal(document.getElementById('notice_visitor'), 'notice');
+		// 	qa_reveal(document.getElementById('notice_visitor'), 'notice');
 			
-			var elem = document.getElementById('title');
-			if (elem) {
-				elem.select();
-				elem.focus();
-			}
-		};
+		// 	var elem = document.getElementById('title');
+		// 	if (elem) {
+		// 		elem.select();
+		// 		elem.focus();
+		// 	}
+		// };
 		</script>
 		<script src="qa-content/qa-ask8782.js?1.7.4"></script>
 		<script src="qa-plugin/wysiwyg-editor/ckeditor/ckeditor8782.js?1.7.4"></script>
-		<script src="../../www.google.com/recaptcha/api99a7.js?onload=recaptcha_onload&amp;render=explicit"></script>
+		
 	</head>
 	<?php include 'header.php';?>
 
@@ -118,11 +118,11 @@
 							<a href="unanswered.php" class="qa-nav-main-link">Unanswered</a>
 						</li>
 						<li class="qa-nav-main-item qa-nav-main-tag">
-							<a href="tags.php" class="qa-nav-main-link">Tags</a>
+							<a href="departments.php" class="qa-nav-main-link">Departments</a>
 						</li>
-						<li class="qa-nav-main-item qa-nav-main-user">
+						<!-- <li class="qa-nav-main-item qa-nav-main-user">
 							<a href="users.php" class="qa-nav-main-link">Users</a>
-						</li>
+						</li> -->
 						<li class="qa-nav-main-item qa-nav-main-ask">
 							<a href="ask.php" class="qa-nav-main-link qa-nav-main-selected">Ask a Question</a>
 						</li>
@@ -304,7 +304,7 @@
 			</div> <!-- END main-wrapper -->
 		</div> <!-- END body-wrapper -->
 		<?php include 'footer.php';?>
-		<script type="text/javascript">
+<!-- 		<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-1165533-8']);
@@ -316,7 +316,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
+</script> -->
 		<div style="position:absolute; left:-9999px; top:-9999px;">
 			<span id="qa-waiting-template" class="qa-waiting">...</span>
 		</div>

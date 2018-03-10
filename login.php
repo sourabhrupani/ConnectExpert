@@ -5,23 +5,23 @@
 		<meta charset="utf-8">
 		<title>Login</title>
 
-<script>
-		var qa_root = '.html\/';
-		var qa_request = 'login';
-		var qa_oldonload = window.onload;
-		window.onload = function() {
-			if (typeof qa_oldonload == 'function')
-				qa_oldonload();
-			
-			qa_reveal(document.getElementById('notice_visitor'), 'notice');
-			
-			var elem = document.getElementById('emailhandle');
-			if (elem) {
-				elem.select();
-				elem.focus();
-			}
-		};
-</script>
+		<!-- <script>
+				var qa_root = '.html\/';
+				var qa_request = 'login';
+				var qa_oldonload = window.onload;
+				window.onload = function() {
+					if (typeof qa_oldonload == 'function')
+						qa_oldonload();
+					
+					qa_reveal(document.getElementById('notice_visitor'), 'notice');
+					
+					var elem = document.getElementById('emailhandle');
+					if (elem) {
+						elem.select();
+						elem.focus();
+					}
+				};
+		</script> -->
 
 <?php include 'header.php';?>
 <?php include 'topNav.php';?>
@@ -142,7 +142,7 @@
 			</div> <!-- END main-wrapper -->
 		</div> <!-- END body-wrapper -->
 		<?php include 'footer.php'; ?>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-1165533-8']);
@@ -154,7 +154,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
+</script> -->
 		<div style="position:absolute; left:-9999px; top:-9999px;">
 			<span id="qa-waiting-template" class="qa-waiting">...</span>
 		</div>

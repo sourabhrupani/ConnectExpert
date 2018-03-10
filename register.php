@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<title>Register as a new user</title>
 		
-		<script>
+		<!-- <script>
 		var qa_root = '.html\/';
 		var qa_request = 'register';
 		var qa_captcha_in = 'qa_captcha_div_1';
@@ -32,8 +32,8 @@
 				elem.focus();
 			}
 		};
-		</script>
-		<script src="../../www.google.com/recaptcha/api99a7.js?onload=recaptcha_onload&amp;render=explicit"></script>
+		</script> -->
+		<!-- <script src="../../www.google.com/recaptcha/api99a7.js?onload=recaptcha_onload&amp;render=explicit"></script> -->
 		
 	<?php include 'header.php';?>
 	<?php include 'topNav.php';?>
@@ -92,7 +92,7 @@
 										<div class="qa-form-tall-note">Privacy: Your email address will not be shared or sold to third parties.</div>
 									</td>
 								</tr>
-								<tr>
+								<!-- <tr>
 									<td class="qa-form-tall-label">
 										Q2A site:
 									</td>
@@ -111,7 +111,7 @@
 									<td class="qa-form-tall-data">
 										<div id="qa_captcha_div_1"></div>
 									</td>
-								</tr>
+								</tr> -->
 								<tr>
 									<td colspan="1" class="qa-form-tall-buttons">
 										<input onclick="qa_show_waiting_after(this, false);" value="Register" title="" type="submit" class="qa-form-tall-button qa-form-tall-button-register">
@@ -182,7 +182,7 @@
 		
 		<?php include 'footer.php';?>
 
-		<script type="text/javascript">
+<!-- 		<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-1165533-8']);
@@ -194,7 +194,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
+</script> -->
 		<div style="position:absolute; left:-9999px; top:-9999px;">
 			<span id="qa-waiting-template" class="qa-waiting">...</span>
 		</div>

@@ -74,9 +74,9 @@
 						<li class="qa-nav-main-item qa-nav-main-tag">
 							<a href="departments.php" class="qa-nav-main-link">Departments</a>
 						</li>
-						<li class="qa-nav-main-item qa-nav-main-user">
+						<!-- <li class="qa-nav-main-item qa-nav-main-user">
 							<a href="users.php" class="qa-nav-main-link">Users</a>
-						</li>
+						</li> -->
 						<li class="qa-nav-main-item qa-nav-main-ask">
 							<a href="ask.php" class="qa-nav-main-link">Ask a Question</a>
 						</li>

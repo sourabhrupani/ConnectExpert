@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<title>Hot questions</title>
 		
-		<script>
+		<!-- <script>
 		var qa_root = '.html\/';
 		var qa_request = 'hot';
 		var qa_oldonload = window.onload;
@@ -15,7 +15,7 @@
 			
 			qa_reveal(document.getElementById('notice_visitor'), 'notice');
 		};
-		</script>
+		</script> -->
 		
 		<?php include 'header.php';?>
 		
@@ -65,9 +65,9 @@
 						<li class="qa-nav-main-item qa-nav-main-tag">
 							<a href="departments.php" class="qa-nav-main-link">Departments</a>
 						</li>
-						<li class="qa-nav-main-item qa-nav-main-user">
+						<!-- <li class="qa-nav-main-item qa-nav-main-user">
 							<a href="users.php" class="qa-nav-main-link">Users</a>
-						</li>
+						</li> -->
 						<li class="qa-nav-main-item qa-nav-main-ask">
 							<a href="ask.php" class="qa-nav-main-link">Ask a Question</a>
 						</li>
@@ -481,7 +481,7 @@
 			</div> <!-- END main-wrapper -->
 		</div> <!-- END body-wrapper -->
 		<?php include 'footer.php';?>
-		<script type="text/javascript">
+		<!-- <script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-1165533-8']);
@@ -493,7 +493,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
+</script> -->
 		<div style="position:absolute; left:-9999px; top:-9999px;">
 			<span id="qa-waiting-template" class="qa-waiting">...</span>
 		</div>

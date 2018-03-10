@@ -3,7 +3,7 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
 		<meta charset="utf-8">
-		<title>Auronautical Department Questions</title>
+		<title>Awronautical Department Questions</title>
 		<link rel="next" href="questions5a94.html?start=20" >
 		
 		<STYLE TYPE="text/css">
@@ -25,88 +25,7 @@
 		<?php include 'header.php';?>
 
 	
-		<div id="qam-topbar" class="clearfix">
-			<div class="qam-main-nav-wrapper clearfix">
-				<div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
-				<div class="qam-account-items-wrapper">
-					<div id="qam-account-toggle" class="qam-logged-out">
-						<i class="icon-key qam-auth-key"></i>
-						<div class="qam-account-handle">Login</div>
-					</div>
-					<div class="qam-account-items clearfix">
-						<form action="http://www.question2answer.org/qa/login?to=questions" method="post">
-							<input type="text" name="emailhandle" dir="auto" placeholder="Email or Username">
-							<input type="password" name="password" dir="auto" placeholder="Password">
-							<div><input type="checkbox" name="remember" id="qam-rememberme" value="1">
-							<label for="qam-rememberme">Remember</label></div>
-							<input type="hidden" name="code" value="0-1520521076-a381b2ac2a817e9cd1ff31b40598a008852ea8b4">
-							<input type="submit" value="Login" class="qa-form-tall-button qa-form-tall-button-login" name="dologin">
-						</form>
-						<div class="qa-nav-user">
-							<ul class="qa-nav-user-list">
-								<li class="qa-nav-user-item qa-nav-user-register">
-									<a href="register.php" class="qa-nav-user-link">Register</a>
-								</li>
-							</ul>
-							<div class="qa-nav-user-clear">
-							</div>
-						</div>
-					</div> <!-- END qam-account-items -->
-				</div> <!-- END qam-account-items-wrapper -->
-				<div class="qa-logo">
-					<a href="index.php" class="qa-logo-link" title="Solvo"><img src="images/logo.png" width="454" height="40" border="0" alt="Solvo"></a>
-				</div>
-				<div class="qa-nav-main">
-					<ul class="qa-nav-main-list">
-						
-						<li class="qa-nav-main-item qa-nav-main-questions">
-							<a href="questions.php" class="qa-nav-main-link">Questions</a>
-						</li>
-						<li class="qa-nav-main-item qa-nav-main-hot">
-							<a href="hot.php" class="qa-nav-main-link">Hot!</a>
-						</li>
-						<li class="qa-nav-main-item qa-nav-main-unanswered">
-							<a href="unanswered.php" class="qa-nav-main-link">Unanswered</a>
-						</li>
-						<li class="qa-nav-main-item qa-nav-main-tag">
-							<a href="departments.php" class="qa-nav-main-link">Departments</a>
-						</li>
-						<li class="qa-nav-main-item qa-nav-main-user">
-							<a href="users.php" class="qa-nav-main-link">Users</a>
-						</li>
-						<li class="qa-nav-main-item qa-nav-main-ask">
-							<a href="ask.php" class="qa-nav-main-link">Ask a Question</a>
-						</li>
-						<li class="qa-nav-main-item-opp qa-nav-main-custom-1">
-							<a href="index.php" class="qa-nav-main-link">About</a>
-						</li>
-					</ul>
-					<div class="qa-nav-main-clear">
-					</div>
-				</div>
-			</div> <!-- END qam-main-nav-wrapper -->
-			<div class="qa-nav-sub">
-				<ul class="qa-nav-sub-list">
-					<li class="qa-nav-sub-item qa-nav-sub-recent">
-						<a href="questions.php" class="qa-nav-sub-link qa-nav-sub-selected">Recent</a>
-					</li>
-					<li class="qa-nav-sub-item qa-nav-sub-hot">
-						<a href="questions2b6b.html?sort=hot" class="qa-nav-sub-link">Hot!</a>
-					</li>
-					<li class="qa-nav-sub-item qa-nav-sub-votes">
-						<a href="questionsb900.html?sort=votes" class="qa-nav-sub-link">Most votes</a>
-					</li>
-					<li class="qa-nav-sub-item qa-nav-sub-answers">
-						<a href="questionsfc5c.html?sort=answers" class="qa-nav-sub-link">Most answers</a>
-					</li>
-					<li class="qa-nav-sub-item qa-nav-sub-views">
-						<a href="questions1b53.html?sort=views" class="qa-nav-sub-link">Most views</a>
-					</li>
-				</ul>
-				<div class="qa-nav-sub-clear">
-				</div>
-			</div>
-		</div> <!-- END qam-topbar -->
+		<?php include 'topNav.php';?>
 		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="ask.php" class="turquoise">Ask a Question</a></div><div class="qam-search-mobile turquoise" id="qam-search-mobile"></div></div>
 		<div class="qam-search turquoise the-top" id="the-top-search">
 			<div class="qa-search">
@@ -146,7 +65,7 @@
 						<a href="feed/questions.rss" title="Recent questions"><i class="icon-rss qam-title-rss"></i></a>
 						
 						
-						Auronautical Department Questions
+						Aeronautical Department Questions
 						
 					</h1>
 					<div class="qa-part-q-list">

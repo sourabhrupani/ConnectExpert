@@ -231,7 +231,7 @@ blockquote p {
 	margin: 0 -40px 0 0;
 	padding: 0 40px 0 5px;
 	vertical-align: bottom;
-	width: 100%;
+	width: 99%;
 	height: 36px;
 	border-width: 1px;
 	border-style: solid;
@@ -484,6 +484,7 @@ blockquote p {
 	vertical-align: top;
 	font-size: 24px;
 	margin: 0 1px 0 0;
+	padding-bottom: 10px;
 }
 .qa-logo img {
 	max-height: 49px;
@@ -601,16 +602,19 @@ blockquote p {
 }
 
 .qa-nav-main-link {
-	background-color: #34495e;
+	background-color: #3860a9;
 	display: block;
 	line-height: normal;
 	min-width: 60px;
 	width: auto;
 	height: auto;
+	border-radius: 15px;
 }
 .qa-nav-main-link:hover {
 	text-decoration: none;
 	background: #445f7a;
+	color: white;
+	border-bottom: 5px solid orange;
 }
 .qa-nav-main-link:before {
 	font-family: "fontello";
@@ -704,14 +708,16 @@ blockquote p {
 	display: block;
 	cursor: pointer;
 	min-width: 60px;
-	min-height: 55px;
+	min-height: 50px;
 	max-width: 80px;
 	padding: 2px;
-	background-color: #34495e;
+	background-color: #3860a9;
+	border-radius: 15px;
 	text-align: center;
 }
 #qam-account-toggle:hover {
 	background: #445f7a;
+	border-bottom: 5px solid orange;
 }
 #qam-account-toggle .qam-auth-key {
 	font-size: 28px;
