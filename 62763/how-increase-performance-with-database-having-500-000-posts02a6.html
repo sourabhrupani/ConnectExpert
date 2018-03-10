@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+	
+<!-- Mirrored from www.question2answer.org/qa/62763/how-increase-performance-with-database-having-500-000-posts?show=62767 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Mar 2018 16:34:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<title>How to increase Performance with database having 500 000+ posts? - Question2Answer Q&amp;A</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="I have reached 0.5 million posts and it is obvious that q2a is not performing the same &quot;high speed&quot; as before ...  1.8.0). This would help a lot (!)">
+		<meta name="keywords" content="Q2A Core,database,performance">
+		<link rel="stylesheet" href="../qa-theme/SnowFlat/qa-styles8782.css?1.7.4">
+		<link rel="stylesheet" href="../qa-theme/SnowFlat/fonts/ubuntu8782.css?1.7.4">
+		<style>
+			.qa-body-js-on .qa-notice {display:none;}
+		</style>
+		<style>
+			.qa-nav-user { margin: 0 !important; }
+			@media (max-width: 979px) {
+			 body.qa-template-user.fixed, body[class*="qa-template-user-"].fixed { padding-top: 118px !important; }
+			 body.qa-template-users.fixed { padding-top: 95px !important; }
+			}
+			@media (min-width: 980px) {
+			 body.qa-template-users.fixed { padding-top: 105px !important;}
+			}
+		</style>
+		<style>
+			.fb-login-button.fb_iframe_widget.fb_hide_iframes span {display:none;}
+		</style>
+		<link rel="canonical" href="how-increase-performance-with-database-having-500-000-posts.html">
+		<link rel="search" type="application/opensearchdescription+xml" title="Question2Answer Q&amp;A" href="../opensearch.xml">
+		<STYLE TYPE="text/css"><!--
+.qa-logo-link img {padding-top:8px;}
+.qa-nav-main-custom-6 {width:2em; background:url('../../../developer.android.com/images/brand/Android_Robot_100.png') no-repeat center center; background-size:50% 50%;}
+--></STYLE>
+		<script>
+		var qa_root = '../index.html\/';
+		var qa_request = '62763\/how-increase-performance-with-database-having-500-000-posts';
+		var qa_oldonload = window.onload;
+		window.onload = function() {
+			if (typeof qa_oldonload == 'function')
+				qa_oldonload();
+			
+			qa_element_revealed=document.getElementById('anew');
+			
+			qa_reveal(document.getElementById('notice_visitor'), 'notice');
+		};
+		</script>
+		<script src="../qa-content/jquery-1.11.3.min.js"></script>
+		<script src="../qa-content/qa-page8782.js?1.7.4"></script>
+		<script src="../qa-content/qa-question8782.js?1.7.4"></script>
+		<script src="../qa-theme/SnowFlat/js/snow-core8782.js?1.7.4"></script>
+	</head>
+	<body
+		class="qa-template-question qa-category-1 qa-body-js-off"
+		>
+		<script>
+			var b=document.getElementsByTagName('body')[0];
+			b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
+		</script>
+		<div class="qa-notice" id="notice_visitor">
+			<form method="post" action="http://www.question2answer.org/qa/62763/how-increase-performance-with-database-having-500-000-posts?show=62767">
+				Welcome to the Question2Answer Q&amp;A. There's also a <A HREF="http://demo.question2answer.org/">demo</A> if you just want to try it out.
+				<input name="notice_visitor" onclick="return qa_notice_click(this);" type="submit" value="X" class="qa-notice-close-button"> 
+				<input type="hidden" name="code" value="0-1520521409-81f0242de73f411f19edff59dfc90f84b5f774c9">
+			</form>
+		</div>
+		<div id="qam-topbar" class="clearfix">
+			<div class="qam-main-nav-wrapper clearfix">
+				<div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
+				<div class="qam-account-items-wrapper">
+					<div id="qam-account-toggle" class="qam-logged-out">
+						<i class="icon-key qam-auth-key"></i>
+						<div class="qam-account-handle">Login</div>
+					</div>
+					<div class="qam-account-items clearfix">
+						<form action="http://www.question2answer.org/qa/login?to=62763%2Fhow-increase-performance-with-database-having-500-000-posts%3Fshow%3D62767" method="post">
+							<input type="text" name="emailhandle" dir="auto" placeholder="Email or Username">
+							<input type="password" name="password" dir="auto" placeholder="Password">
+							<div><input type="checkbox" name="remember" id="qam-rememberme" value="1">
+							<label for="qam-rememberme">Remember</label></div>
+							<input type="hidden" name="code" value="0-1520521409-b2fef050636a8c7beb78ee0663dad8cf41eaae4f">
+							<input type="submit" value="Login" class="qa-form-tall-button qa-form-tall-button-login" name="dologin">
+						</form>
+						<div class="qa-nav-user">
+							<ul class="qa-nav-user-list">
+								<li class="qa-nav-user-item qa-nav-user-facebook-login">
+									<span class="qa-nav-user-nolink">	<div id="fb-root" style="display:inline;"></div>
+	<script>
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId  : '158644244176280',
+			status : true,
+			cookie : true,
+			xfbml  : true,
+			oauth  : true
+		});
+
+		FB.Event.subscribe('auth.login', function(response) {
+			setTimeout("window.location='http:\/\/www.question2answer.org\/qa\/facebook-login?to=http%3A%2F%2Fwww.question2answer.org%2Fqa%2F62763%2Fhow-increase-performance-with-database-having-500-000-posts%3Fshow%3D62767'", 100);
+		});
+	};
+	(function(d){
+		var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+		js = d.createElement('script'); js.id = id; js.async = true;
+		js.src = "../../../connect.facebook.net/en_US/all.js";
+		d.getElementsByTagName('head')[0].appendChild(js);
+	}(document));
+	</script>
+	<div class="fb-login-button" style="display:inline; vertical-align:middle;" size="medium" scope="email,user_about_me,user_location,user_website">
+	</div>
+</span>
+								</li>
+								<li class="qa-nav-user-item qa-nav-user-register">
+									<a href="../register337e.html?to=62763%2Fhow-increase-performance-with-database-having-500-000-posts%3Fshow%3D62767" class="qa-nav-user-link">Register</a>
+								</li>
+							</ul>
+							<div class="qa-nav-user-clear">
+							</div>
+						</div>
+					</div> <!-- END qam-account-items -->
+				</div> <!-- END qam-account-items-wrapper -->
+				<div class="qa-logo">
+					<a href="../index.html" class="qa-logo-link" title="Question2Answer Q&amp;A"><img src="../../images/question2answer-qa-logo-white-454x40.png" width="454" height="40" border="0" alt="Question2Answer Q&amp;A"></a>
+				</div>
+				<div class="qa-nav-main">
+					<ul class="qa-nav-main-list">
+						<li class="qa-nav-main-item qa-nav-main-activity">
+							<a href="../activity.html" class="qa-nav-main-link">All Activity</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-questions">
+							<a href="../questions.html" class="qa-nav-main-link">Questions</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-hot">
+							<a href="../hot.html" class="qa-nav-main-link">Hot!</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-unanswered">
+							<a href="../unanswered.html" class="qa-nav-main-link">Unanswered</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-tag">
+							<a href="../tags.html" class="qa-nav-main-link">Tags</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-user">
+							<a href="../users.html" class="qa-nav-main-link">Users</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-ask">
+							<a href="../askb31a.html?cat=1" class="qa-nav-main-link">Ask a Question</a>
+						</li>
+						<li class="qa-nav-main-item-opp qa-nav-main-custom-1">
+							<a href="http://www.question2answer.org/" class="qa-nav-main-link">About</a>
+						</li>
+					</ul>
+					<div class="qa-nav-main-clear">
+					</div>
+				</div>
+			</div> <!-- END qam-main-nav-wrapper -->
+		</div> <!-- END qam-topbar -->
+		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="../ask.html" class="turquoise">Ask a Question</a></div><div class="qam-search-mobile turquoise" id="qam-search-mobile"></div></div>
+		<div class="qam-search turquoise the-top" id="the-top-search">
+			<div class="qa-search">
+				<form method="get" action="http://www.question2answer.org/qa/search">
+					
+					<input type="text" name="q" value="" class="qa-search-field">
+					<input type="submit" value="Search" class="qa-search-button">
+				</form>
+			</div>
+		</div>
+		<div class="qa-body-wrapper">
+			
+			<div class="qa-main-wrapper">
+				
+				<div class="qa-main">
+					<h1>
+						
+						<a href="how-increase-performance-with-database-having-500-000-posts.html">
+							<span class="entry-title">How to increase Performance with database having 500 000+ posts?</span>
+						</a>
+					</h1>
+					<div class="qa-part-q-view">
+						<div class="qa-q-view  hentry question" id="q62763">
+							<form method="post" action="http://www.question2answer.org/qa/62763/how-increase-performance-with-database-having-500-000-posts?show=62767">
+								<div class="qa-q-view-stats">
+									<div class="qa-voting qa-voting-net" id="voting_62763">
+										<div class="qa-vote-buttons qa-vote-buttons-net">
+											<input title="Click to vote up" name="vote_62763_1_q62763" onclick="return qa_vote_click(this);" type="submit" value="+" class="qa-vote-first-button qa-vote-up-button"> 
+											<input title="Click to vote down" name="vote_62763_-1_q62763" onclick="return qa_vote_click(this);" type="submit" value="&ndash;" class="qa-vote-second-button qa-vote-down-button"> 
+										</div>
+										<div class="qa-vote-count qa-vote-count-net">
+											<span class="qa-netvote-count">
+												<span class="qa-netvote-count-data">+1<span class="votes-up"><span class="value-title" title="1"></span></span><span class="votes-down"><span class="value-title" title="0"></span></span></span><span class="qa-netvote-count-pad"> vote</span>
+											</span>
+										</div>
+										<div class="qa-vote-clear">
+										</div>
+									</div>
+									<span class="qa-view-count">
+										<span class="qa-view-count-data">18</span><span class="qa-view-count-pad"> views</span>
+									</span>
+								</div>
+								<input type="hidden" name="code" value="0-1520521409-7eeb1cff5996eda907ae9fece762dbf5ebaf0831">
+							</form>
+							<div class="qa-q-view-main">
+								<form method="post" action="http://www.question2answer.org/qa/62763/how-increase-performance-with-database-having-500-000-posts?show=62767">
+									<span class="qa-q-view-avatar-meta">
+										<span class="qa-q-view-avatar">
+											<a href="../user/q2apro.html" class="qa-avatar-link"><img src="../index3942.html?qa=image&amp;qa_blobid=11666304965361404942&amp;qa_size=50" width="50" height="50" class="qa-avatar-image" alt=""></a>
+										</span>
+										<span class="qa-q-view-meta">
+											<a href="how-increase-performance-with-database-having-500-000-posts.html" class="qa-q-view-what">asked</a>
+											<span class="qa-q-view-when">
+												<span class="qa-q-view-when-data"><span class="published updated"><span class="value-title" title="2018-03-08T08:13:54+0000">6 hours</span></span></span><span class="qa-q-view-when-pad"> ago</span>
+											</span>
+											<span class="qa-q-view-where">
+												<span class="qa-q-view-where-pad">in </span><span class="qa-q-view-where-data"><a href="../core.html" class="qa-category-link">Q2A Core</a></span>
+											</span>
+											<span class="qa-q-view-who">
+												<span class="qa-q-view-who-pad">by </span>
+												<span class="qa-q-view-who-data"><span class="vcard author"><a href="../user/q2apro.html" class="qa-user-link url fn entry-title nickname">q2apro</a></span></span>
+											</span>
+										</span>
+									</span>
+									<div class="qa-q-view-content">
+										<a name="62763"></a><div class="entry-content">
+
+<p>I have reached 0.5 million posts and it is obvious that q2a is not performing the same "high speed" as before.</p>
+
+<p>Users notice that for instance when:</p>
+
+<p>- Posting a question (submit time is ~3 seconds)
+<br>- Clicking the vote button (~3 to 5 seconds), <a rel="nofollow" href="https://github.com/q2a/question2answer/issues/574">issue on github</a>
+<br>- page load (instead of 0.5 it's ~1-2 seconds)
+<br>- users list (of course, goes through 15k users)
+<br>- ...</p>
+
+<p>I am pretty sure there is room for improvement.</p>
+
+<p>For instance, things i dont use and would like to get rid off:</p>
+
+<p>- q2a search queries (db level, I am using Google Custom Search) - but keeping the similar questions and the tag suggestions (guess it's tables qa_tagwords and qa_titlewords)
+<br>- <strong>qa_sharedevents</strong> - never used that
+<br>- <strong>qa_userevents</strong> - never used that
+<br>- qa_contentwords - never used that (and have a disable hack already in place)
+<br>- hotness - never used that
+<br>- ...</p>
+
+<p>It would be great to have more options in the admin panel to disable the unnecessary things, and boost performance a bit.</p>
+
+<p></p>
+
+<p><strong>My hosting is:&nbsp;</strong></p>
+
+<p>Digital Ocean, 2 CPUs, 4GB RAM, 80 GB SSD.</p>
+
+<p>MySql takes about 20 - 30 % of processor activities.</p>
+
+<p><img alt="" src="../index0562.html?qa=blob&amp;qa_blobid=10042768056896352255" style="height:284px; width:395px"></p>
+
+<p>~200 visitors active on site, ~20k visitors per day</p>
+
+<p>I am also wondering if we should have a cache that saves static HTML pages and provides them to anonymous users (instead the db query cache as it is with 1.8.0). This would help a lot (!)</p></div>
+									</div>
+									<div class="qa-q-view-extra">
+										Q2A version:
+										<span class="qa-q-view-extra-content">
+											1.8.0
+										</span>
+									</div>
+									<div class="qa-q-view-tags">
+										<ul class="qa-q-view-tag-list">
+											<li class="qa-q-view-tag-item"><a href="../tag/database.html" rel="tag" class="qa-tag-link">database</a></li>
+											<li class="qa-q-view-tag-item"><a href="../tag/performance.html" rel="tag" class="qa-tag-link">performance</a></li>
+										</ul>
+									</div>
+									<div class="qa-q-view-buttons">
+										<input name="q_doflag" onclick="qa_show_waiting_after(this, false);" value="flag" title="Flag this question as spam or inappropriate" type="submit" class="qa-form-light-button qa-form-light-button-flag">
+										<input name="q_doanswer" id="q_doanswer" onclick="return qa_toggle_element('anew')" value="answer" title="Answer this question" type="submit" class="qa-form-light-button qa-form-light-button-answer">
+										<input name="q_docomment" onclick="return qa_toggle_element('c62763')" value="comment" title="Add a comment on this question" type="submit" class="qa-form-light-button qa-form-light-button-comment">
+									</div>
+									
+									<div class="qa-q-view-c-list" id="c62763_list">
+										<div class="qa-c-list-item  hentry comment" id="c62767">
+											<span class="qa-c-item-avatar-meta">
+												<span class="qa-c-item-avatar">
+													<a href="../user/islam%2bafify.html" class="qa-avatar-link"><img src="../index0a51.html?qa=image&amp;qa_blobid=13521543978986692608&amp;qa_size=20" width="11" height="20" class="qa-avatar-image" alt=""></a>
+												</span>
+												<span class="qa-c-item-meta">
+													<a href="how-increase-performance-with-database-having-500-000-posts02a6.html?show=62767#c62767" class="qa-c-item-what">commented</a>
+													<span class="qa-c-item-when">
+														<span class="qa-c-item-when-data"><span class="published"><span class="value-title" title="2018-03-08T11:04:41+0000">3 hours</span></span></span><span class="qa-c-item-when-pad"> ago</span>
+													</span>
+													<span class="qa-c-item-who">
+														<span class="qa-c-item-who-pad">by </span>
+														<span class="qa-c-item-who-data"><span class="vcard author"><a href="../user/islam%2bafify.html" class="qa-user-link url fn entry-title nickname">islam afify</a></span></span>
+													</span>
+													<br>
+													<span class="qa-c-item-what">moved</span>
+													<span class="qa-c-item-when">
+														<span class="qa-c-item-when-data"><span class="updated"><span class="value-title" title="2018-03-08T11:23:28+0000">3 hours</span></span></span><span class="qa-c-item-when-pad"> ago</span>
+													</span>
+													<span class="qa-c-item-who">
+														<span class="qa-c-item-who-pad">by </span><span class="qa-c-item-who-data"><a href="../user/Scott.html" class="qa-user-link url fn entry-title nickname">Scott</a></span>
+													</span>
+												</span>
+											</span>
+											<div class="qa-c-item-content">
+												<a name="62767"></a><div class="entry-content">Very cool how can I disable all this</div>
+											</div>
+											<div class="qa-c-item-footer">
+												<div class="qa-c-item-buttons">
+													<input name="c62767_doflag" onclick="return qa_comment_click(62767, 62763, 62763, this);" value="flag" title="Flag this comment as spam or inappropriate" type="submit" class="qa-form-light-button qa-form-light-button-flag">
+													<input name="q_docomment" onclick="return qa_toggle_element('c62763')" value="reply" title="Reply to this comment" type="submit" class="qa-form-light-button qa-form-light-button-comment">
+												</div>
+											</div>
+											<div class="qa-c-item-clear">
+											</div>
+										</div> <!-- END qa-c-item -->
+									</div> <!-- END qa-c-list -->
+									
+									<input type="hidden" name="code" value="0-1520521409-ef8ea53e5e1817c06f8ab40a135631e0737c6381">
+									<input type="hidden" name="qa_click" value="">
+								</form>
+								<div class="qa-c-form" id="c62763" style="display:none;">
+									<h2>Please <a href="../login7584.html?to=62763%2Fhow-increase-performance-with-database-having-500-000-posts">log in</a> or <a href="../register7584.html?to=62763%2Fhow-increase-performance-with-database-having-500-000-posts">register</a> to add a comment.</h2>
+								</div> <!-- END qa-c-form -->
+								
+							</div> <!-- END qa-q-view-main -->
+							<div class="qa-q-view-clear">
+							</div>
+						</div> <!-- END qa-q-view -->
+						
+					</div>
+					<div class="qa-part-a-form">
+						<div class="qa-a-form" id="anew">
+							<h2>Please <a href="../login7584.html?to=62763%2Fhow-increase-performance-with-database-having-500-000-posts">log in</a> or <a href="../register7584.html?to=62763%2Fhow-increase-performance-with-database-having-500-000-posts">register</a> to answer this question.</h2>
+						</div> <!-- END qa-a-form -->
+						
+					</div>
+					<div class="qa-part-a-list">
+						<h2 id="a_list_title" style="display:none;"></h2>
+						<div class="qa-a-list" id="a_list">
+							
+						</div> <!-- END qa-a-list -->
+						
+					</div>
+				</div> <!-- END qa-main -->
+				
+				<div id="qam-sidepanel-toggle"><i class="icon-left-open-big"></i></div>
+				<div class="qa-sidepanel" id="qam-sidepanel-mobile">
+					<div class="qam-search turquoise ">
+						<div class="qa-search">
+							<form method="get" action="http://www.question2answer.org/qa/search">
+								
+								<input type="text" name="q" value="" class="qa-search-field">
+								<input type="submit" value="Search" class="qa-search-button">
+							</form>
+						</div>
+					</div>
+					<div class="qa-sidebar wet-asphalt">
+						<div style="font-size:13px;">
+Welcome to the Q&amp;A site for <A HREF="http://www.question2answer.org/">Question2Answer</A>.
+<BR><BR>
+If you have a question about Q2A, please <A HREF="../ask.html">ask in English</A>.
+<BR><BR>
+To report a bug, please create a <A HREF="https://github.com/q2a/question2answer/issues">new issue on Github</A> or ask a question here with the <a href="../tag/bug.html" class="qa-tag-link" style="margin:0 2px;">bug</a> tag.
+<BR><BR>
+If you just want to try Q2A, please use the <A HREF="http://demo.question2answer.org/">demo site</A>.
+<!--<BR><BR>
+<B><A HREF="http://www.question2answer.org/qa/31514/what-do-you-want-in-question2answer-1-7">Q: What do you want in Question2Answer 1.7?</A></B>-->
+<BR><BR>
+<B STYLE="color:red;">Feb 8, 2018:</B> <A HREF="http://www.question2answer.org/versions.php">Q2A 1.8.0 released!</A>
+</div>
+					</div>
+					
+					<div class="qa-widgets-side qa-widgets-side-high">
+						<div class="qa-widget-side qa-widget-side-high">
+							<div class="qa-related-qs">
+								<h2 style="margin-top:0; padding-top:0;">
+									Related questions
+								</h2>
+								<ul class="qa-related-q-list">
+									<li class="qa-related-q-item"><a href="../62295/performance-for-multiple-sites-using-the-same-database.html">Performance for multiple sites using the same database?</a></li>
+									<li class="qa-related-q-item"><a href="../20154/what-is-your-database-size-who-got-the-biggest-performance.html">What is your database size? Who got the biggest? (performance)</a></li>
+									<li class="qa-related-q-item"><a href="../13717/performance-of-mysql-qa_options-table-query.html">Performance of MYSQL (qa_options table query)</a></li>
+									<li class="qa-related-q-item"><a href="../28699/savely-reducing-the-q2a-database-size-when-using-q2as-search.html">Savely Reducing the q2a Database Size (when not using q2a's search)</a></li>
+									<li class="qa-related-q-item"><a href="../51803/qa_optimize_local_db-making-positive-difference-performance.html">Is QA_OPTIMIZE_LOCAL_DB really making a positive difference in performance?</a></li>
+									<li class="qa-related-q-item"><a href="../51571/query-string-performance-tuning-suggestion-from-a-tool.html">Query string performance tuning suggestion from a tool</a></li>
+									<li class="qa-related-q-item"><a href="../51419/urgent-help-on-metadata-performance-issue.html">Urgent help on Metadata - performance issue</a></li>
+									<li class="qa-related-q-item"><a href="../51367/what-does-high-setup-time-mean-in-performance-debug-table.html">What does High Setup time mean in performance debug Table</a></li>
+									<li class="qa-related-q-item"><a href="../44000/what-the-performance-impact-qa_allow_unindexed_queries.html">What is the performance impact of QA_ALLOW_UNINDEXED_QUERIES?</a></li>
+									<li class="qa-related-q-item"><a href="../34738/performance-issue-of-custom-and-plugin-pages.html">Performance issue of custom and plugin pages</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="qa-nav-cat">
+						<ul class="qa-nav-cat-list qa-nav-cat-list-1">
+							<li class="qa-nav-cat-item qa-nav-cat-all">
+								<a href="../index.html" class="qa-nav-cat-link">All categories</a>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-core">
+								<a href="../core.html" class="qa-nav-cat-link qa-nav-cat-selected" title="Questions about the Question2Answer platform.">Q2A Core</a>
+								<span class="qa-nav-cat-note">(9,369)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-plugins">
+								<a href="../plugins.html" class="qa-nav-cat-link" title="Questions about plugins created for Q2A.">Plugins</a>
+								<span class="qa-nav-cat-note">(2,738)</span>
+							</li>
+							<li class="qa-nav-cat-item qa-nav-cat-themes">
+								<a href="../themes.html" class="qa-nav-cat-link" title="Questions about third-party themes.">Themes</a>
+								<span class="qa-nav-cat-note">(557)</span>
+							</li>
+						</ul>
+						<div class="qa-nav-cat-clear">
+						</div>
+					</div>
+				</div>
+				
+			</div> <!-- END main-wrapper -->
+		</div> <!-- END body-wrapper -->
+		<div class="qam-footer-box">
+			<div class="qam-footer-row">
+			</div> <!-- END qam-footer-row -->
+			<div class="qa-footer">
+				<div class="qa-nav-footer">
+					<ul class="qa-nav-footer-list">
+						<li class="qa-nav-footer-item qa-nav-footer-custom-4">
+							<a href="http://www.question2answer.org/feedback.php" class="qa-nav-footer-link">Send feedback</a>
+						</li>
+						<li class="qa-nav-footer-item qa-nav-footer-custom-3">
+							<a href="http://demo.question2answer.org/" class="qa-nav-footer-link">Demo sandbox</a>
+						</li>
+						<li class="qa-nav-footer-item qa-nav-footer-custom-5">
+							<a href="http://wiki.question2answer.org/" class="qa-nav-footer-link">Q2A Wiki</a>
+						</li>
+					</ul>
+					<div class="qa-nav-footer-clear">
+					</div>
+				</div>
+				<div class="qa-attribution">
+					Snow Theme by <a href="http://www.q2amarket.com/">Q2A Market</a>
+				</div>
+				<div class="qa-attribution">
+					Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+				</div>
+				<div class="qa-footer-clear">
+				</div>
+			</div> <!-- END qa-footer -->
+			
+		</div> <!-- END qam-footer-box -->
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1165533-8']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+		<div style="position:absolute; left:-9999px; top:-9999px;">
+			<span id="qa-waiting-template" class="qa-waiting">...</span>
+		</div>
+	</body>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+
+<!-- Mirrored from www.question2answer.org/qa/62763/how-increase-performance-with-database-having-500-000-posts?show=62767 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Mar 2018 16:34:03 GMT -->
+</html>

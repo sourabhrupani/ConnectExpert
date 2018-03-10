@@ -1,0 +1,4 @@
+a.depart_btn.btn.btn-primary {
+    color: dodgerblue;
+    background-color:  white;
+}

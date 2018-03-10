@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+		<meta charset="utf-8">
+		<title>Register as a new user - Question2Answer Q&amp;A</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="qa-theme/SnowFlat/qa-styles8782.css?1.7.4">
+		<link rel="stylesheet" href="qa-theme/SnowFlat/fonts/ubuntu8782.css?1.7.4">
+		<style>
+			.qa-body-js-on .qa-notice {display:none;}
+		</style>
+		<style>
+			.qa-nav-user { margin: 0 !important; }
+		</style>
+		<style>
+			.fb-login-button.fb_iframe_widget.fb_hide_iframes span {display:none;}
+		</style>
+		<link rel="search" type="application/opensearchdescription+xml" title="Question2Answer Q&amp;A" href="opensearch.xml">
+		<STYLE TYPE="text/css"><!--
+.qa-logo-link img {padding-top:8px;}
+.qa-nav-main-custom-6 {width:2em; background:url('../../developer.android.com/images/brand/Android_Robot_100.png') no-repeat center center; background-size:50% 50%;}
+--></STYLE>
+		<script>
+		var qa_root = '.html\/';
+		var qa_request = 'register';
+		var qa_captcha_in = 'qa_captcha_div_1';
+		function recaptcha_load(elemId) {
+		  if (grecaptcha) {
+		    grecaptcha.render(elemId, {
+		      "sitekey": '6LdY9gsAAAAAAO3irtawGrfBt7rqPkzFRvRHd_Mz'
+		    });
+		  }
+		}
+		function recaptcha_onload() {
+		  recaptcha_load("qa_captcha_div_1");
+		}
+		var qa_oldonload = window.onload;
+		window.onload = function() {
+			if (typeof qa_oldonload == 'function')
+				qa_oldonload();
+			
+			qa_reveal(document.getElementById('notice_visitor'), 'notice');
+			
+			var elem = document.getElementById('handle');
+			if (elem) {
+				elem.select();
+				elem.focus();
+			}
+		};
+		</script>
+		<script src="qa-content/jquery-1.11.3.min.js"></script>
+		<script src="qa-content/qa-page8782.js?1.7.4"></script>
+		<script src="../../www.google.com/recaptcha/api99a7.js?onload=recaptcha_onload&amp;render=explicit"></script>
+		<script src="qa-theme/SnowFlat/js/snow-core8782.js?1.7.4"></script>
+	</head>
+	<body
+		class="qa-template-register qa-body-js-off"
+		>
+		<script>
+			var b=document.getElementsByTagName('body')[0];
+			b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
+		</script>
+		<div class="qa-notice" id="notice_visitor">
+			<form method="post" action="http://www.question2answer.org/qa/register">
+				Welcome to the Question2Answer Q&amp;A. There's also a <A HREF="http://demo.question2answer.org/">demo</A> if you just want to try it out.
+				<input name="notice_visitor" onclick="return qa_notice_click(this);" type="submit" value="X" class="qa-notice-close-button"> 
+				<input type="hidden" name="code" value="0-1520521573-617e73361a96592386737f2d324555ffe519dd1d">
+			</form>
+		</div>
+		<div id="qam-topbar" class="clearfix">
+			<div class="qam-main-nav-wrapper clearfix">
+				<div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
+				<div class="qam-account-items-wrapper">
+					<div id="qam-account-toggle" class="qam-logged-out">
+						<i class="icon-key qam-auth-key"></i>
+						<div class="qam-account-handle">Login</div>
+					</div>
+					<div class="qam-account-items clearfix">
+						<form action="http://www.question2answer.org/qa/login?to=register" method="post">
+							<input type="text" name="emailhandle" dir="auto" placeholder="Email or Username">
+							<input type="password" name="password" dir="auto" placeholder="Password">
+							<div><input type="checkbox" name="remember" id="qam-rememberme" value="1">
+							<label for="qam-rememberme">Remember</label></div>
+							<input type="hidden" name="code" value="0-1520521573-4e173d77c71c908b3a415f9b07133cae9c4ad257">
+							<input type="submit" value="Login" class="qa-form-tall-button qa-form-tall-button-login" name="dologin">
+						</form>
+						<div class="qa-nav-user">
+							<ul class="qa-nav-user-list">
+								<li class="qa-nav-user-item qa-nav-user-facebook-login">
+									<span class="qa-nav-user-nolink">	<div id="fb-root" style="display:inline;"></div>
+	<script>
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId  : '158644244176280',
+			status : true,
+			cookie : true,
+			xfbml  : true,
+			oauth  : true
+		});
+
+		FB.Event.subscribe('auth.login', function(response) {
+			setTimeout("window.location='http:\/\/www.question2answer.org\/qa\/facebook-login?to=http%3A%2F%2Fwww.question2answer.org%2Fqa%2Fregister'", 100);
+		});
+	};
+	(function(d){
+		var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+		js = d.createElement('script'); js.id = id; js.async = true;
+		js.src = "../../connect.facebook.net/en_US/all.js";
+		d.getElementsByTagName('head')[0].appendChild(js);
+	}(document));
+	</script>
+	<div class="fb-login-button" style="display:inline; vertical-align:middle;" size="medium" scope="email,user_about_me,user_location,user_website">
+	</div>
+</span>
+								</li>
+								<li class="qa-nav-user-item qa-nav-user-register">
+									<a href="register2beb.html?to=register" class="qa-nav-user-link qa-nav-user-selected">Register</a>
+								</li>
+							</ul>
+							<div class="qa-nav-user-clear">
+							</div>
+						</div>
+					</div> <!-- END qam-account-items -->
+				</div> <!-- END qam-account-items-wrapper -->
+				<div class="qa-logo">
+					<a href="index.html" class="qa-logo-link" title="Question2Answer Q&amp;A"><img src="../images/question2answer-qa-logo-white-454x40.png" width="454" height="40" border="0" alt="Question2Answer Q&amp;A"></a>
+				</div>
+				<div class="qa-nav-main">
+					<ul class="qa-nav-main-list">
+						<li class="qa-nav-main-item qa-nav-main-activity">
+							<a href="activity.html" class="qa-nav-main-link">All Activity</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-questions">
+							<a href="questions.html" class="qa-nav-main-link">Questions</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-hot">
+							<a href="hot.html" class="qa-nav-main-link">Hot!</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-unanswered">
+							<a href="unanswered.html" class="qa-nav-main-link">Unanswered</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-tag">
+							<a href="tags.html" class="qa-nav-main-link">Tags</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-user">
+							<a href="users.html" class="qa-nav-main-link">Users</a>
+						</li>
+						<li class="qa-nav-main-item qa-nav-main-ask">
+							<a href="ask.html" class="qa-nav-main-link">Ask a Question</a>
+						</li>
+						<li class="qa-nav-main-item-opp qa-nav-main-custom-1">
+							<a href="http://www.question2answer.org/" class="qa-nav-main-link">About</a>
+						</li>
+					</ul>
+					<div class="qa-nav-main-clear">
+					</div>
+				</div>
+			</div> <!-- END qam-main-nav-wrapper -->
+		</div> <!-- END qam-topbar -->
+		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="ask.html" class="turquoise">Ask a Question</a></div><div class="qam-search-mobile turquoise" id="qam-search-mobile"></div></div>
+		<div class="qam-search turquoise the-top" id="the-top-search">
+			<div class="qa-search">
+				<form method="get" action="http://www.question2answer.org/qa/search">
+					
+					<input type="text" name="q" value="" class="qa-search-field">
+					<input type="submit" value="Search" class="qa-search-button">
+				</form>
+			</div>
+		</div>
+		<div class="qa-body-wrapper">
+			
+			<div class="qa-main-wrapper">
+				
+				<div class="qa-main">
+					<h1>
+						
+						
+						Register as a new user
+						
+					</h1>
+					<div class="qa-part-form">
+						<form method="post" action="http://www.question2answer.org/qa/register">
+							<table class="qa-form-tall-table">
+								<tr>
+									<td class="qa-form-tall-label">
+										Username:
+									</td>
+								</tr>
+								<tr>
+									<td class="qa-form-tall-data">
+										<input name="handle" id="handle" dir="auto" type="text" value="" class="qa-form-tall-text">
+									</td>
+								</tr>
+								<tr>
+									<td class="qa-form-tall-label">
+										Password:
+									</td>
+								</tr>
+								<tr>
+									<td class="qa-form-tall-data">
+										<input name="password" id="password" dir="auto" type="password" value="" class="qa-form-tall-text">
+									</td>
+								</tr>
+								<tr>
+									<td class="qa-form-tall-label">
+										Email:
+									</td>
+								</tr>
+								<tr>
+									<td class="qa-form-tall-data">
+										<input name="email" id="email" dir="auto" type="text" value="" class="qa-form-tall-text">
+										<div class="qa-form-tall-note">Privacy: Your email address will not be shared or sold to third parties.</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="qa-form-tall-label">
+										Q2A site:
+									</td>
+								</tr>
+								<tr>
+									<td class="qa-form-tall-data">
+										<input name="field_5" type="text" value="" class="qa-form-tall-text">
+									</td>
+								</tr>
+								<tr>
+									<td class="qa-form-tall-label">
+										Anti-spam verification:
+									</td>
+								</tr>
+								<tr>
+									<td class="qa-form-tall-data">
+										<div id="qa_captcha_div_1"></div>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="1" class="qa-form-tall-buttons">
+										<input onclick="qa_show_waiting_after(this, false);" value="Register" title="" type="submit" class="qa-form-tall-button qa-form-tall-button-register">
+									</td>
+								</tr>
+							</table>
+							<input type="hidden" name="doregister" value="1">
+							<input type="hidden" name="code" value="0-1520521573-d6c18add60c4ef71eb533f5ffef192e1346e8010">
+						</form>
+					</div>
+					<div class="qa-part-custom">
+						<br>	<div id="fb-root" style="display:inline;"></div>
+	<script>
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId  : '158644244176280',
+			status : true,
+			cookie : true,
+			xfbml  : true,
+			oauth  : true
+		});
+
+		FB.Event.subscribe('auth.login', function(response) {
+			setTimeout("window.location='http:\/\/www.question2answer.org\/qa\/facebook-login?to=http%3A%2F%2Fwww.question2answer.org%2Fqa%2F'", 100);
+		});
+	};
+	(function(d){
+		var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+		js = d.createElement('script'); js.id = id; js.async = true;
+		js.src = "../../connect.facebook.net/en_US/all.js";
+		d.getElementsByTagName('head')[0].appendChild(js);
+	}(document));
+	</script>
+	<div class="fb-login-button" style="display:inline; vertical-align:middle;" size="large" scope="email,user_about_me,user_location,user_website">
+	</div>
+<br>
+					</div>
+				</div> <!-- END qa-main -->
+				
+				<div id="qam-sidepanel-toggle"><i class="icon-left-open-big"></i></div>
+				<div class="qa-sidepanel" id="qam-sidepanel-mobile">
+					<div class="qam-search turquoise ">
+						<div class="qa-search">
+							<form method="get" action="http://www.question2answer.org/qa/search">
+								
+								<input type="text" name="q" value="" class="qa-search-field">
+								<input type="submit" value="Search" class="qa-search-button">
+							</form>
+						</div>
+					</div>
+					<div class="qa-sidebar wet-asphalt">
+						<div style="font-size:13px;">
+Welcome to the Q&amp;A site for <A HREF="http://www.question2answer.org/">Question2Answer</A>.
+<BR><BR>
+If you have a question about Q2A, please <A HREF="ask.html">ask in English</A>.
+<BR><BR>
+To report a bug, please create a <A HREF="https://github.com/q2a/question2answer/issues">new issue on Github</A> or ask a question here with the <a href="tag/bug.html" class="qa-tag-link" style="margin:0 2px;">bug</a> tag.
+<BR><BR>
+If you just want to try Q2A, please use the <A HREF="http://demo.question2answer.org/">demo site</A>.
+<!--<BR><BR>
+<B><A HREF="http://www.question2answer.org/qa/31514/what-do-you-want-in-question2answer-1-7">Q: What do you want in Question2Answer 1.7?</A></B>-->
+<BR><BR>
+<B STYLE="color:red;">Feb 8, 2018:</B> <A HREF="http://www.question2answer.org/versions.php">Q2A 1.8.0 released!</A>
+</div>
+					</div>
+					
+				</div>
+				
+			</div> <!-- END main-wrapper -->
+		</div> <!-- END body-wrapper -->
+		<div class="qam-footer-box">
+			<div class="qam-footer-row">
+			</div> <!-- END qam-footer-row -->
+			<div class="qa-footer">
+				<div class="qa-nav-footer">
+					<ul class="qa-nav-footer-list">
+						<li class="qa-nav-footer-item qa-nav-footer-custom-4">
+							<a href="http://www.question2answer.org/feedback.php" class="qa-nav-footer-link">Send feedback</a>
+						</li>
+						<li class="qa-nav-footer-item qa-nav-footer-custom-3">
+							<a href="http://demo.question2answer.org/" class="qa-nav-footer-link">Demo sandbox</a>
+						</li>
+						<li class="qa-nav-footer-item qa-nav-footer-custom-5">
+							<a href="http://wiki.question2answer.org/" class="qa-nav-footer-link">Q2A Wiki</a>
+						</li>
+					</ul>
+					<div class="qa-nav-footer-clear">
+					</div>
+				</div>
+				<div class="qa-attribution">
+					Snow Theme by <a href="http://www.q2amarket.com/">Q2A Market</a>
+				</div>
+				<div class="qa-attribution">
+					Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+				</div>
+				<div class="qa-footer-clear">
+				</div>
+			</div> <!-- END qa-footer -->
+			
+		</div> <!-- END qam-footer-box -->
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1165533-8']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+		<div style="position:absolute; left:-9999px; top:-9999px;">
+			<span id="qa-waiting-template" class="qa-waiting">...</span>
+		</div>
+	</body>
+	<!-- Powered by Question2Answer - http://www.question2answer.org/ -->
+
+<!-- Mirrored from www.question2answer.org/qa/register by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Mar 2018 16:52:54 GMT -->
+</html>
