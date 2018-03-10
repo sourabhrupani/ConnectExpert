@@ -11,7 +11,7 @@
 			.qa-logo-link img {padding-top:8px;}
 			.qa-nav-main-custom-6 {width:2em; background:url('../../developer.android.com/images/brand/Android_Robot_100.png') no-repeat center center; background-size:50% 50%;}
 		</STYLE>
-		<script>
+		<!-- <script>
 		var qa_root = '.html\/';
 		var qa_request = 'questions';
 		var qa_oldonload = window.onload;
@@ -21,7 +21,7 @@
 			
 			qa_reveal(document.getElementById('notice_visitor'), 'notice');
 		};
-		</script>
+		</script> -->
 		<?php include 'header.php';?>
 
 	
@@ -58,9 +58,7 @@
 				</div>
 				<div class="qa-nav-main">
 					<ul class="qa-nav-main-list">
-						<!-- <li class="qa-nav-main-item qa-nav-main-activity">
-							<a href="activity.html" class="qa-nav-main-link">All Activity</a>
-						</li> -->
+						
 						<li class="qa-nav-main-item qa-nav-main-questions">
 							<a href="questions.php" class="qa-nav-main-link">Questions</a>
 						</li>
@@ -126,21 +124,21 @@
 				<div class="qa-main">
 					<div class="qa-widgets-main qa-widgets-main-top">
 						<div class="qa-widget-main qa-widget-main-top">
-<div class="qa-ask-box">
-	<form method="post" action="http://www.question2answer.org/qa/ask?cat=">
-		<table class="qa-form-tall-table" style="width:100%">
-			<tr style="vertical-align:middle;">
-				<td class="qa-form-tall-label" style="padding:8px; white-space:nowrap; text-align:right;" width="1">
-					Ask&nbsp;a&nbsp;question:
-				</td>
-				<td class="qa-form-tall-data" style="padding:8px;" width="*">
-					<input name="title" type="text" class="qa-form-tall-text" style="width:95%;">
-				</td>
-			</tr>
-		</table>
-		<input type="hidden" name="doask1" value="1">
-	</form>
-</div>
+							<div class="qa-ask-box">
+								<form method="post" action="http://www.question2answer.org/qa/ask?cat=">
+									<table class="qa-form-tall-table" style="width:100%">
+										<tr style="vertical-align:middle;">
+											<td class="qa-form-tall-label" style="padding:8px; white-space:nowrap; text-align:right;" width="1">
+												Ask&nbsp;a&nbsp;question:
+											</td>
+											<td class="qa-form-tall-data" style="padding:8px;" width="*">
+												<input name="title" type="text" class="qa-form-tall-text" style="width:95%;">
+											</td>
+										</tr>
+									</table>
+									<input type="hidden" name="doask1" value="1">
+								</form>
+							</div>
 						</div>
 					</div>
 					
@@ -537,7 +535,7 @@
 			</div> <!-- END main-wrapper -->
 		</div> <!-- END body-wrapper -->
 		<?php include 'footer.php';?>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-1165533-8']);
@@ -549,7 +547,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
+</script> -->
 		<div style="position:absolute; left:-9999px; top:-9999px;">
 			<span id="qa-waiting-template" class="qa-waiting">...</span>
 		</div>

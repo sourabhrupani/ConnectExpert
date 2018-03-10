@@ -11,7 +11,7 @@
 			.qa-logo-link img {padding-top:8px;}
 			.qa-nav-main-custom-6 {width:2em; background:url('../../developer.android.com/images/brand/Android_Robot_100.png') no-repeat center center; background-size:50% 50%;}
 		</STYLE>
-		<script>
+		<!-- <script>
 		var qa_root = '.html\/';
 		var qa_request = 'questions';
 		var qa_oldonload = window.onload;
@@ -21,7 +21,7 @@
 			
 			qa_reveal(document.getElementById('notice_visitor'), 'notice');
 		};
-		</script>
+		</script> -->
 		<?php include 'header.php';?>
 
 	

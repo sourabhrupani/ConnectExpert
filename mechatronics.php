@@ -11,7 +11,7 @@
 			.qa-logo-link img {padding-top:8px;}
 			.qa-nav-main-custom-6 {width:2em; background:url('../../developer.android.com/images/brand/Android_Robot_100.png') no-repeat center center; background-size:50% 50%;}
 		</STYLE>
-		<script>
+		<!-- <script>
 		var qa_root = '.html\/';
 		var qa_request = 'questions';
 		var qa_oldonload = window.onload;
@@ -21,7 +21,7 @@
 			
 			qa_reveal(document.getElementById('notice_visitor'), 'notice');
 		};
-		</script>
+		</script> -->
 		<?php include 'header.php';?>
 
 	
@@ -537,7 +537,7 @@
 			</div> <!-- END main-wrapper -->
 		</div> <!-- END body-wrapper -->
 		<?php include 'footer.php';?>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-1165533-8']);
@@ -549,7 +549,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
+</script> -->
 		<div style="position:absolute; left:-9999px; top:-9999px;">
 			<span id="qa-waiting-template" class="qa-waiting">...</span>
 		</div>
