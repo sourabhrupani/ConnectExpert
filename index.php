@@ -404,12 +404,12 @@
                             <p class="buttons">
                               <button name="formSubmitRegisterFreeModel" type="submit" value="false" class="button submit"><span>Sign Up</span></button>
                             </p>
-                            <div class="memberAgreement">
-                              By clicking you are agreeing to Experts Exchange's <a href="terms.html" target="_blank" class="termsOfUse"><span>Terms of Use</span></a>
-                            </div>
-                            <div class="info">
+                            <!-- <div class="memberAgreement">
+                              By clicking you are agreeing to WhizzKid's <a href="terms.html" target="_blank" class="termsOfUse"><span>Terms of Use</span></a>
+                            </div> -->
+                            <!-- <div class="info">
                                 <div class="regBaCta"><a href="business.html">Have a team? See the benefits of a Team Account here.</a></div>
-                            </div>
+                            </div> -->
                           </form>
                         </div>
                       </div>
@@ -440,9 +440,9 @@
                                 </div>
                               </div>
                               <script type="text/javascript">
-                                oneAllSocialSignon('https://login.experts-exchange.com/','login.html?redirect=/&amp;asyncUrl=/async/registerFreePopup.async%3Fasid%3DregisterFreePopup%26componentHtmlId%3DregisterFreePopup%26regActId%3D500%26redirect%3D/','loginloginWrap',null);
+                                oneAllSocialSignon('php/login.php','/','loginloginWrap',null);
                               </script>
-                              <form action="https://www.experts-exchange.com/login.jsp?redirect=/" method="post" onsubmit="return submitOnce('#login-loginForm');" id="login-loginForm" onsubmit="return submitOnce('#login-loginForm');">
+                              <form action="questions.php" method="post" >
                                 <div>
                                   <div class="input text">
                                     <label for="login-loginForm-loginName">Email Address (or username)</label>
@@ -472,9 +472,9 @@
                                 <script type="text/javascript">
                                   jqOn('#login-loginForm .showPassword','change',function(e){if(is('#login-loginForm .showPassword',':checked')){replaceInput('#login-loginForm .inputPassword','text',jqGetProperty('#login-loginForm .inputPassword','id'),jqGetProperty('#login-loginForm .inputPassword','name'),jqGetProperty('#login-loginForm .inputPassword','value'),'inputPassword','30')}else{replaceInput('#login-loginForm .inputPassword','password',jqGetProperty('#login-loginForm .inputPassword','id'),jqGetProperty('#login-loginForm .inputPassword','name'),jqGetProperty('#login-loginForm .inputPassword','value'),'inputPassword','30')}});
                                 </script>
-                                <script type="text/javascript">
+                                <!-- <script type="text/javascript">
                                   jqOn('#login','keydown','.inputPassword',function(e){if(/msie/.test(navigator.userAgent.toLowerCase()) && e.which == '13'){submitForm('login-loginForm');}});
-                                </script>
+                                </script> -->
                                 <div class="input checkbox remember-me">
                                   <div class="selectionWrapper">
                                     <ul>
@@ -487,7 +487,7 @@
                                 </div>
                                 <p class="buttons">
                                   <button name="loginSubmit" type="submit" class="button confirm" title="Login"><span>Login</span></button>
-                                  <script type="text/javascript">
+                                  <!-- <script type="text/javascript">
                                     var anchorValue = window.location.hash.substr(1);
                                     var anchor = $("<input>", { type: "hidden", name: "anchor", value: anchorValue });
                                     
@@ -495,7 +495,7 @@
                                        $('#login-loginForm').append($(anchor));
                                     }
                                     
-                                  </script>
+                                  </script> -->
                                   <a href="forgotPassword.html" class="button forgotPasswordLink" title="Forgot your password?"><span>Forgot your password?</span></a></p>
                               </form>
                               <script type="text/javascript">
@@ -1788,5 +1788,4 @@
     <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"a5f224d161","agent":"","beacon":"bam.nr-data.net","applicationTime":591,"applicationID":"3642000,7292198","transactionName":"ZQNRMkZYW0tXW0QPXFxJAUl4dhUVFlFeAlZKSFkVRA==","queueTime":0,"atts":"SURGRA5CF3VTVVIDQRIyShZRGw8aeldXAVZWRnwTQBljUUVRRAlBEksTKFtXFX5EXVVGZ0APUgoWFRdwWVVVRmNTAVZGfV1QVkJRVg9WQEQJRHh2GHBZVVVLAgJUA1cDFAUIBBocRH5XC1EDRhlzXVdMRRRWEidQBVFKRhoMGn4JE3QDUhJBS1AYd1tTA0BBRB9EcktQXRZsQg9SXkQJRFJYWUtTGhxEZWM2Eyp9GWBqehhyKWd6RAlEXE1BSEUCbElvHRFEERpcTUhTSkQVHlceUA5VV1JdGFtfC28dRB9EYmhlGHpxEDNhfkZ\/KRYDF1BCTEAVCW5Jb0lDTkIWU0BAA0FGFR4DTFpdWVhfVUhQXQtvSRYVF2hXX1VGZVsDREZ3VkBWQhoKRAIQShE0UV5cS0JdQkZ1QANWRmJQUE8UAhJXEU8b"}</script>
   </body>
 
-<!-- Mirrored from www.experts-exchange.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Mar 2018 08:07:23 GMT -->
 </html>
