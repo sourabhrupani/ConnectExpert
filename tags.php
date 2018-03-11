@@ -245,7 +245,7 @@
 							</tr>
 						</table>
 					</div>
-					<div class="qa-page-links">
+					<!-- <div class="qa-page-links">
 						<span class="qa-page-links-label">Page:</span>
 						<ul class="qa-page-links-list">
 							<li class="qa-page-links-item">
@@ -278,7 +278,7 @@
 						</ul>
 						<div class="qa-page-links-clear">
 						</div>
-					</div>
+					</div> -->
 				</div> <!-- END qa-main -->
 				
 				<div id="qam-sidepanel-toggle"><i class="icon-left-open-big"></i></div>
@@ -310,7 +310,7 @@
 			</div> <!-- END main-wrapper -->
 		</div> <!-- END body-wrapper -->
 		<?php include 'footer.php';?>
-		<script type="text/javascript">
+		<!-- <script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-1165533-8']);
@@ -322,7 +322,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
+</script> -->
 		<div style="position:absolute; left:-9999px; top:-9999px;">
 			<span id="qa-waiting-template" class="qa-waiting">...</span>
 		</div>

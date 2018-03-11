@@ -242,40 +242,7 @@
 							</div>
 						</form>
 					</div>
-					<div class="qa-page-links">
-						<span class="qa-page-links-label">Page:</span>
-						<ul class="qa-page-links-list">
-							<li class="qa-page-links-item">
-								<span class="qa-page-selected">1</span>
-							</li>
-							<li class="qa-page-links-item">
-								<a href="questions5a94.html?start=20" class="qa-page-link">2</a>
-							</li>
-							<li class="qa-page-links-item">
-								<a href="questions4abd.html?start=40" class="qa-page-link">3</a>
-							</li>
-							<li class="qa-page-links-item">
-								<a href="questionsc61e.html?start=60" class="qa-page-link">4</a>
-							</li>
-							<li class="qa-page-links-item">
-								<a href="questions4c62.html?start=80" class="qa-page-link">5</a>
-							</li>
-							<li class="qa-page-links-item">
-								<a href="questions27d2.html?start=100" class="qa-page-link">6</a>
-							</li>
-							<li class="qa-page-links-item">
-								<span class="qa-page-ellipsis">...</span>
-							</li>
-							<li class="qa-page-links-item">
-								<a href="questionsa3d5.html?start=12660" class="qa-page-link">634</a>
-							</li>
-							<li class="qa-page-links-item">
-								<a href="questions5a94.html?start=20" class="qa-page-next">next &raquo;</a>
-							</li>
-						</ul>
-						<div class="qa-page-links-clear">
-						</div>
-					</div>
+					
 				</div> <!-- END qa-main -->
 				
 				<div id="qam-sidepanel-toggle"><i class="icon-left-open-big"></i></div>
@@ -429,22 +396,7 @@
 								<a href="tag/links.html" style="font-size: 8px; vertical-align: baseline;">links</a>
 							</div>
 						</div>
-						<div class="qa-widget-side qa-widget-side-low">
-							<div class="qa-activity-count">
-								<p class="qa-activity-count-item">
-									<span class="qa-activity-count-data">12,664</span> questions
-								</p>
-								<p class="qa-activity-count-item">
-									<span class="qa-activity-count-data">13,019</span> answers
-								</p>
-								<p class="qa-activity-count-item">
-									<span class="qa-activity-count-data">25,475</span> comments
-								</p>
-								<p class="qa-activity-count-item">
-									<span class="qa-activity-count-data">16,876</span> users
-								</p>
-							</div>
-						</div>
+						
 					</div>
 					
 					<div class="qa-feed">

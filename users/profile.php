@@ -3,7 +3,7 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
 		<meta charset="utf-8">
-		<title><?php echo $FNAME; ?></title>
+		<title>Profile</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="../qa-theme/SnowFlat/qa-styles8782.css?1.7.4">
 		<link rel="stylesheet" href="../qa-theme/SnowFlat/fonts/ubuntu8782.css?1.7.4">
@@ -149,7 +149,10 @@
 				
 				<div class="qa-main">
 					<h1>
-						Hello <?php echo $fName; ?>
+						
+						
+						Hello Zeeshan
+						
 					</h1>
 					<div class="qa-part-form-profile">
 						<form method="post" action="http://www.question2answer.org/qa/user/Zeeshan">
@@ -166,9 +169,7 @@
 										Member for:
 									</td>
 									<td class="qa-form-wide-data">
-										<span class="qa-form-wide-static">
-											<?php ?>
-										</span>
+										<span class="qa-form-wide-static">7 months (since Jul 26, 2017)</span>
 									</td>
 								</tr>
 								<tr id="level">
@@ -187,14 +188,14 @@
 										<span class="qa-form-wide-static">Voting posts down</span>
 									</td>
 								</tr>
-								<!-- <tr id="userfield-5">
+								<tr id="userfield-5">
 									<td class="qa-form-wide-label">
 										Q2A site:
 									</td>
 									<td class="qa-form-wide-data">
 										<span class="qa-form-wide-static"><a href="https://electronics2electrical.com/" rel="nofollow">https://electronics2electrical.com/</a></span>
 									</td>
-								</tr> -->
+								</tr>
 								<tr id="userfield-1">
 									<td class="qa-form-wide-label">
 										Full name:
@@ -203,22 +204,22 @@
 										<span class="qa-form-wide-static">Zeeshan</span>
 									</td>
 								</tr>
-								<!-- <tr id="userfield-2">
+								<tr id="userfield-2">
 									<td class="qa-form-wide-label">
 										Location:
 									</td>
 									<td class="qa-form-wide-data">
 										<span class="qa-form-wide-static">India</span>
 									</td>
-								</tr> -->
-								<!-- <tr id="userfield-3">
+								</tr>
+								<tr id="userfield-3">
 									<td class="qa-form-wide-label">
 										Personal site:
 									</td>
 									<td class="qa-form-wide-data">
 										<span class="qa-form-wide-static"></span>
 									</td>
-								</tr> -->
+								</tr>
 								<tr id="userfield-4">
 									<td class="qa-form-wide-label" style="vertical-align:top;">
 										About:
@@ -313,7 +314,7 @@
 			</div> <!-- END main-wrapper -->
 		</div> <!-- END body-wrapper -->
 		<?php include '../footer.php';?>
-		<script type="text/javascript">
+		<!-- <script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-1165533-8']);
@@ -325,7 +326,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script>
+</script> -->
 		<div style="position:absolute; left:-9999px; top:-9999px;">
 			<span id="qa-waiting-template" class="qa-waiting">...</span>
 		</div>
