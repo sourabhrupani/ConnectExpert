@@ -28,7 +28,7 @@
 		<div class="qam-ask-search-box"><div class="qam-ask-mobile"><a href="ask.php" class="turquoise">Ask a Question</a></div><div class="qam-search-mobile turquoise" id="qam-search-mobile"></div></div>
 		<div class="qam-search turquoise the-top" id="the-top-search">
 			<div class="qa-search">
-				<form method="get" action="http://www.question2answer.org/qa/search">
+				<form method="get" action="#">
 					
 					<input type="text" name="q" value="" class="qa-search-field">
 					<input type="submit" value="Search" class="qa-search-button">
@@ -45,7 +45,7 @@
 						
 					</h1>
 					<div class="qa-part-form">
-						<form method="post" action="http://www.question2answer.org/qa/login">
+						<form method="post" action="php/login.php">
 							<table class="qa-form-tall-table">
 								<tr>
 									<td class="qa-form-tall-label">
@@ -54,7 +54,7 @@
 								</tr>
 								<tr>
 									<td class="qa-form-tall-data">
-										<input name="emailhandle" id="emailhandle" dir="auto" type="text" value="" class="qa-form-tall-text">
+										<input name="uname" id="emailhandle" dir="auto" type="text" value="" class="qa-form-tall-text">
 									</td>
 								</tr>
 								<tr>
@@ -88,7 +88,7 @@
 					</div>
 					<div class="qa-part-custom">
 						<br>	<div id="fb-root" style="display:inline;"></div>
-	<script>
+<!-- 	<script>
 	window.fbAsyncInit = function() {
 		FB.init({
 			appId  : '158644244176280',
@@ -108,7 +108,7 @@
 		js.src = "../../connect.facebook.net/en_US/all.js";
 		d.getElementsByTagName('head')[0].appendChild(js);
 	}(document));
-	</script>
+	</script> -->
 	<div class="fb-login-button" style="display:inline; vertical-align:middle;" size="large" scope="email,user_about_me,user_location,user_website">
 	</div>
 <br>
@@ -119,7 +119,7 @@
 				<div class="qa-sidepanel" id="qam-sidepanel-mobile">
 					<div class="qam-search turquoise ">
 						<div class="qa-search">
-							<form method="get" action="http://www.question2answer.org/qa/search">
+							<form method="get" action="#">
 								
 								<input type="text" name="q" value="" class="qa-search-field">
 								<input type="submit" value="Search" class="qa-search-button">

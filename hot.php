@@ -289,7 +289,7 @@
 							</div>
 						</form>
 					</div>
-					<div class="qa-page-links">
+					<!-- <div class="qa-page-links">
 						<span class="qa-page-links-label">Page:</span>
 						<ul class="qa-page-links-list">
 							<li class="qa-page-links-item">
@@ -322,7 +322,7 @@
 						</ul>
 						<div class="qa-page-links-clear">
 						</div>
-					</div>
+					</div> -->
 				</div> <!-- END qa-main -->
 				
 				<div id="qam-sidepanel-toggle"><i class="icon-left-open-big"></i></div>
@@ -455,22 +455,7 @@
 								<a href="tag/links.html" style="font-size: 8px; vertical-align: baseline;">links</a>
 							</div>
 						</div>
-						<div class="qa-widget-side qa-widget-side-low">
-							<div class="qa-activity-count">
-								<p class="qa-activity-count-item">
-									<span class="qa-activity-count-data">12,664</span> questions
-								</p>
-								<p class="qa-activity-count-item">
-									<span class="qa-activity-count-data">13,019</span> answers
-								</p>
-								<p class="qa-activity-count-item">
-									<span class="qa-activity-count-data">25,475</span> comments
-								</p>
-								<p class="qa-activity-count-item">
-									<span class="qa-activity-count-data">16,876</span> users
-								</p>
-							</div>
-						</div>
+						
 					</div>
 					
 					<div class="qa-feed">

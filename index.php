@@ -26,7 +26,7 @@ include 'php/login.php';
     
    
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
-    <script src="../www.google.com/recaptcha/api85f1.js?onload=onloadCallback&amp;render=explicit" async defer></script>
+    <!-- <script src="../www.google.com/recaptcha/api85f1.js?onload=onloadCallback&amp;render=explicit" async defer></script> -->
 <!--
     <script type="text/javascript">
       var grecaptchaIdregisterFreeform;
@@ -134,11 +134,11 @@ include 'php/login.php';
                                 <a href="#"><span>Sign up with Facebook</span></a>
                               </div>
                             </div>
-                            <script type="text/javascript">
+                            <!-- <script type="text/javascript">
                               oneAllSocialSignon('https://login.experts-exchange.com/','login.html?redirect=/&amp;asyncUrl=/async/registerFreePopup.async%3Fasid%3DregisterFreePopup%26componentHtmlId%3DregisterFreePopup%26regActId%3D500%26redirect%3D/','registerFree-signup',null);
-                            </script>
+                            </script> -->
                           </div>
-                          <form method="post" onsubmit="addCaptchaToForm(this, grecaptchaIdregisterFreeform);return submitOnce('#registerFree-form');" class="form" id="registerFree-form" onsubmit="addCaptchaToForm(this, grecaptchaIdregisterFreeform);return submitOnce('#registerFree-form');">
+                          <form method="post" action="php/register.php">
                             <div class=" " id="registerFree-form-fName-row">
                               <div class="input text">
                                 <label for="registerFree-form-fName" >First Name</label>
@@ -183,38 +183,25 @@ include 'php/login.php';
                                 </div>
                               </div>
                               <p class="note">Must be at least 4 characters long.</p>
-                              <div class="input checkbox show-password">
-                                <div class="selectionWrapper">
-                                  <ul>
-                                    <li class="first last">
-                                      <input name="showPassword" type="checkbox" class="showPassword ghostPassword" id="registerFree-form-showPassword-checkbox-null" />
-                                      <label for="registerFree-form-showPassword-checkbox-null">Show Password</label>
-                                    </li>
-                                  </ul>
+                                  <!-- <div class="input checkbox show-password">
+                                    <div class="selectionWrapper">
+                                      <ul>
+                                        <li class="first last">
+                                          <input name="showPassword" type="checkbox" class="showPassword ghostPassword" id="registerFree-form-showPassword-checkbox-null" />
+                                          <label for="registerFree-form-showPassword-checkbox-null">Show Password</label>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div> -->
                                 </div>
-                              </div>
-                            </div>
-                            <script type="text/javascript">
-                              jqOn('#registerFree-form-password','blur',function(e){jqPost('async/harvesterValidator.html',[{name:'iasid',value:'registerFree-form-password-row'},{name:'htid',value:'7'},{name:'password',value:jqGetValue('#registerFree-form-password')},{name:'asid',value:'registerFree-form-password-row'},{name:'req',value:'true'}],function(e){var i = e.indexOf('\n'); jqAddClass(jqRemoveClass(jqRemoveClass(jqRemoveClass(jqRemoveClass('#registerFree-form-password-row',''),'focused'),'valid'),'invalid'),e.slice(0, i));jqSetHtml('#registerFree-form-password-row .note',e.slice(i+1));jqTrigger('#registerFree-form-password','validated',e);});return true;});
-                            </script>
-                            <script type="text/javascript">
-                              jqOn('#registerFree-form .showPassword','change',function(e){if(is('#registerFree-form .showPassword',':checked')){replaceInput('#registerFree-form .inputPassword','text',jqGetProperty('#registerFree-form .inputPassword','id'),jqGetProperty('#registerFree-form .inputPassword','name'),jqGetProperty('#registerFree-form .inputPassword','value'),'inputPassword','30')}else{replaceInput('#registerFree-form .inputPassword','password',jqGetProperty('#registerFree-form .inputPassword','id'),jqGetProperty('#registerFree-form .inputPassword','name'),jqGetProperty('#registerFree-form .inputPassword','value'),'inputPassword','30')}jqOn('#registerFree-form-password','blur',function(e){jqPost('async/harvesterValidator.html',[{name:'iasid',value:'registerFree-form-password-row'},{name:'htid',value:'7'},{name:'password',value:jqGetValue('#registerFree-form-password')},{name:'asid',value:'registerFree-form-password-row'},{name:'req',value:'true'}],function(e){var i = e.indexOf('\n'); jqAddClass(jqRemoveClass(jqRemoveClass(jqRemoveClass(jqRemoveClass('#registerFree-form-password-row',''),'focused'),'valid'),'invalid'),e.slice(0, i));jqSetHtml('#registerFree-form-password-row .note',e.slice(i+1));jqTrigger('#registerFree-form-password','validated',e);});return true;});});
-                            </script>
-                            <script type="text/javascript">
-                              jqOn('#registerFree-form','keydown','.inputPassword',function(e){if(/msie/.test(navigator.userAgent.toLowerCase()) && e.which == '13'){submitForm('registerFree-form');}});
-                            </script>
+                                
                             <div class="g-recaptcha" id="grecaptchaIdregisterFreeform"></div>
                             <div class="clear"></div>
                             <input name="formSubmitRegisterFreeModel" type="hidden" value="false" />
                             <p class="buttons">
                               <button name="btnSubmit" type="submit" value="false" class="button submit"><span>Sign Up</span></button>
                             </p>
-                            <div class="memberAgreement">
-                              By clicking you are agreeing to Experts Exchange's <a href="terms.html" target="_blank" class="termsOfUse"><span>Terms of Use</span></a>
-                            </div>
-                            <div class="info">
-                                <div class="regBaCta"><a href="business.html">Have a team? See the benefits of a Team Account here.</a></div>
-                            </div>
+                            
                           </form>
                         </div>
                       </div>
@@ -245,65 +232,55 @@ include 'php/login.php';
                                   <a href="#"><span>Sign up with Facebook</span></a>
                                 </div>
                               </div>
-                              <script type="text/javascript">
+                              <!-- <script type="text/javascript">
                                 oneAllSocialSignon('php/login.php','login.html?redirect=/&amp;asyncUrl=/async/registerFreePopup.async%3Fasid%3DregisterFreePopup%26componentHtmlId%3DregisterFreePopup%26regActId%3D500%26redirect%3D/','loginloginWrap',null);
-                              </script>
-                              <form action="php/login.php" method="post" onsubmit="return submitOnce('#login-loginForm');" id="login-loginForm" onsubmit="return submitOnce('#login-loginForm');">
+                              </script> -->
+                              <form method="post" action="php/login.php">
+                            <div class=" " id="registerFree-form-emailAddress-row">
+                              <div class="input text">
+                                <label for="registerFree-form-emailAddress">Username</label>
                                 <div>
-                                  <div class="input text">
-                                    <label for="login-loginForm-loginName">Email Address (or username)</label>
-                                    <div>
-                                      <input maxlength="90" name="loginName" type="text" class="inputUsername" id="login-loginForm-loginName" />
-                                    </div>
-                                  </div>
+                                  <input maxlength="128" name="uname" type="text" autocomplete="true" id="registerFree-form-emailAddress" />
                                 </div>
+                              </div>
+                              <p class="note"></p>
+                            </div>
+                            <script type="text/javascript">
+                              jqOn('#registerFree-form-emailAddress','blur',function(e){jqPost('async/harvesterValidator.html',[{name:'emailAddress',value:jqGetValue('#registerFree-form-emailAddress')},{name:'iasid',value:'registerFree-form-emailAddress-row'},{name:'htid',value:'134'},{name:'Inbound_Source',value:'Homepage'},{name:'showPrivacyPolicy',value:'true'},{name:'redirect',value:'/'},{name:'asid',value:'registerFree-form-emailAddress-row'},{name:'req',value:'true'},{name:'showTermsOfUse',value:'false'}],function(e){var i = e.indexOf('\n'); jqAddClass(jqRemoveClass(jqRemoveClass(jqRemoveClass(jqRemoveClass('#registerFree-form-emailAddress-row',''),'focused'),'valid'),'invalid'),e.slice(0, i));jqSetHtml('#registerFree-form-emailAddress-row .note',e.slice(i+1));jqTrigger('#registerFree-form-emailAddress','validated',e);});return true;});
+                            </script>
+                            <div class=" " id="registerFree-form-password-row">
+                              <div class="input password">
+                                <label for="registerFree-form-password">Password</label>
                                 <div>
-                                  <div class="input password">
-                                    <label for="login-loginForm-loginPassword">Password</label>
-                                    <div>
-                                      <input maxlength="30" name="loginPassword" type="password" class="inputPassword" id="login-loginForm-loginPassword" />
-                                    </div>
-                                  </div>
+                                  <input maxlength="30" name="password" type="password" class="inputPassword" id="registerFree-form-password" />
                                 </div>
-                                <div class="input checkbox show-password">
-                                  <div class="selectionWrapper">
-                                    <ul>
-                                      <li class="first last">
-                                        <input name="showPassword" type="checkbox" class="showPassword ghostPassword" id="login-loginForm-showPassword-checkbox-null" />
-                                        <label for="login-loginForm-showPassword-checkbox-null">Show Password</label>
-                                      </li>
-                                    </ul>
-                                  </div>
+                              </div>
+                              <!-- <div class="input checkbox show-password">
+                                <div class="selectionWrapper">
+                                  <ul>
+                                    <li class="first last">
+                                      <input name="showPassword" type="checkbox" class="showPassword ghostPassword" id="registerFree-form-showPassword-checkbox-null" />
+                                      <label for="registerFree-form-showPassword-checkbox-null">Show Password</label>
+                                    </li>
+                                  </ul>
                                 </div>
-                                <script type="text/javascript">
-                                  jqOn('#login-loginForm .showPassword','change',function(e){if(is('#login-loginForm .showPassword',':checked')){replaceInput('#login-loginForm .inputPassword','text',jqGetProperty('#login-loginForm .inputPassword','id'),jqGetProperty('#login-loginForm .inputPassword','name'),jqGetProperty('#login-loginForm .inputPassword','value'),'inputPassword','30')}else{replaceInput('#login-loginForm .inputPassword','password',jqGetProperty('#login-loginForm .inputPassword','id'),jqGetProperty('#login-loginForm .inputPassword','name'),jqGetProperty('#login-loginForm .inputPassword','value'),'inputPassword','30')}});
-                                </script>
-                                <script type="text/javascript">
-                                  jqOn('#login','keydown','.inputPassword',function(e){if(/msie/.test(navigator.userAgent.toLowerCase()) && e.which == '13'){submitForm('login-loginForm');}});
-                                </script>
-                                <div class="input checkbox remember-me">
-                                  <div class="selectionWrapper">
-                                    <ul>
-                                      <li class="first last">
-                                        <input name="rememberMe" type="checkbox" checked="checked" id="login-loginForm-rememberMe-checkbox-null" />
-                                        <label for="login-loginForm-rememberMe-checkbox-null">Keep Me Logged In</label>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                <p class="buttons">
-                                  <button name="btnSubmit" type="submit" class="button confirm" title="Login"><span>Login</span></button>
-                                  <script type="text/javascript">
-                                    var anchorValue = window.location.hash.substr(1);
-                                    var anchor = $("<input>", { type: "hidden", name: "anchor", value: anchorValue });
-                                    
-                                    if (anchorValue) {
-                                       $('#login-loginForm').append($(anchor));
-                                    }
-                                    
-                                  </script>
-                                  <a href="forgotPassword.html" class="button forgotPasswordLink" title="Forgot your password?"><span>Forgot your password?</span></a></p>
-                              </form>
+                              </div>-->
+                            </div>
+                            <!--<script type="text/javascript">
+                              jqOn('#registerFree-form-password','blur',function(e){jqPost('async/harvesterValidator.html',[{name:'iasid',value:'registerFree-form-password-row'},{name:'htid',value:'7'},{name:'password',value:jqGetValue('#registerFree-form-password')},{name:'asid',value:'registerFree-form-password-row'},{name:'req',value:'true'}],function(e){var i = e.indexOf('\n'); jqAddClass(jqRemoveClass(jqRemoveClass(jqRemoveClass(jqRemoveClass('#registerFree-form-password-row',''),'focused'),'valid'),'invalid'),e.slice(0, i));jqSetHtml('#registerFree-form-password-row .note',e.slice(i+1));jqTrigger('#registerFree-form-password','validated',e);});return true;});
+                            </script>
+                            <script type="text/javascript">
+                              jqOn('#registerFree-form .showPassword','change',function(e){if(is('#registerFree-form .showPassword',':checked')){replaceInput('#registerFree-form .inputPassword','text',jqGetProperty('#registerFree-form .inputPassword','id'),jqGetProperty('#registerFree-form .inputPassword','name'),jqGetProperty('#registerFree-form .inputPassword','value'),'inputPassword','30')}else{replaceInput('#registerFree-form .inputPassword','password',jqGetProperty('#registerFree-form .inputPassword','id'),jqGetProperty('#registerFree-form .inputPassword','name'),jqGetProperty('#registerFree-form .inputPassword','value'),'inputPassword','30')}jqOn('#registerFree-form-password','blur',function(e){jqPost('async/harvesterValidator.html',[{name:'iasid',value:'registerFree-form-password-row'},{name:'htid',value:'7'},{name:'password',value:jqGetValue('#registerFree-form-password')},{name:'asid',value:'registerFree-form-password-row'},{name:'req',value:'true'}],function(e){var i = e.indexOf('\n'); jqAddClass(jqRemoveClass(jqRemoveClass(jqRemoveClass(jqRemoveClass('#registerFree-form-password-row',''),'focused'),'valid'),'invalid'),e.slice(0, i));jqSetHtml('#registerFree-form-password-row .note',e.slice(i+1));jqTrigger('#registerFree-form-password','validated',e);});return true;});});
+                            </script>
+                            <script type="text/javascript">
+                              jqOn('#registerFree-form','keydown','.inputPassword',function(e){if(/msie/.test(navigator.userAgent.toLowerCase()) && e.which == '13'){submitForm('registerFree-form');}});
+                            </script> -->
+                            <div class="g-recaptcha" id="grecaptchaIdregisterFreeform"></div>
+                            <div class="clear"></div>
+                            <input name="formSubmitRegisterFreeModel" type="hidden" value="false" />
+                            <p class="buttons">
+                              <button name="btnSubmit" type="submit" value="false" class="button submit"><span>Login</span></button>
+                            </p>
                               <script type="text/javascript">
                                 loginDetectError();
                               </script>
